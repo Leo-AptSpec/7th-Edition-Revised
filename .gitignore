@@ -5,3 +5,6 @@
 # Don't ignore catalogues and game system
 !*.cat
 !*.gst
+# Fork additions: line-ending policy and documentation
+!.gitattributes
+!*.md

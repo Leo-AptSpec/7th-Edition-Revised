@@ -1,0 +1,9 @@
+# BattleScribe data files are XML and must stay LF-normalised in the repo.
+# Without this, core.autocrlf=true on Windows rewrites entire multi-MB
+# catalogues to CRLF on checkout, which destroys diffs and bloats history.
+*.cat text eol=lf
+*.gst text eol=lf
+*.catz binary
+*.gstz binary
+*.bsr binary
+*.ros binary

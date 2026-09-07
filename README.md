@@ -1,6 +1,19 @@
 Warhammer 40,000 7th Edition
 ============================
 
+> ## Personal fork
+>
+> Fork of the archived [BSData/wh40k-7th-edition](https://github.com/BSData/wh40k-7th-edition),
+> kept alive to fix gaps in 7th edition units and formations. Upstream was
+> abandoned in February 2021 when 8th edition landed.
+>
+> Data-only fork — no app code. Loads in New Recruit, BlueScribe, or
+> BattleScribe alongside `Warhammer40K.gst`.
+>
+> See [CHANGES.md](CHANGES.md) for every divergence from upstream and why.
+>
+> Original upstream README follows.
+
 [![Join the chat at https://gitter.im/BSData/wh40k](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BSData/wh40k?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) <- talk to us!
 
 ## Important ##

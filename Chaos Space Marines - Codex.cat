@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2026" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2027" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -18515,6 +18515,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa8f-69d7-33fa-00dd" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef71-058b-3f36-592f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </conditionGroup>
@@ -18583,6 +18587,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </conditionGroup>
@@ -18638,6 +18646,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3916-ae1f-0a59-f4eb" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c183-8bf0-8c4b-6ffb" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </conditionGroup>
@@ -30824,6 +30836,10 @@ Enemy units that are within 12&quot; of at least two units from this formation s
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa8f-69d7-33fa-00dd" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef71-058b-3f36-592f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -30879,6 +30895,10 @@ Enemy units that are within 12&quot; of at least two units from this formation s
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -30926,6 +30946,10 @@ Enemy units that are within 12&quot; of at least two units from this formation s
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3916-ae1f-0a59-f4eb" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c183-8bf0-8c4b-6ffb" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -30979,6 +31003,10 @@ Enemy units that are within 12&quot; of at least two units from this formation s
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d47-164c-da91-85bc" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cca-8847-194e-40fb" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78c6-3dd8-6697-4ba8" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acbb-03b4-f817-f548" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -34516,6 +34544,9 @@ TL Plasma Gun</description>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7829-adb0-4afd-dafe" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d47-164c-da91-85bc" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d29-efef-8db0-ed67" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ea0-9eab-fa80-66b9" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70b1-2164-14ed-1d31" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78c6-3dd8-6697-4ba8" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </conditionGroup>
@@ -43869,6 +43900,27 @@ Athanaeans - Telepathy</description>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98f7-97a3-da5c-70c6" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7d41-0c9e-b2a6-5e13" name="Typhus" hidden="false" targetId="178b-a991-19ba-d4e2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints/>
