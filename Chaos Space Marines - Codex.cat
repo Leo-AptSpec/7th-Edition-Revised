@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2027" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2028" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -43857,7 +43857,21 @@ Athanaeans - Telepathy</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="a0b8-49e3-8257-a96e" name="New EntryLink" hidden="false" targetId="9dc2-52bf-4cec-9183" type="selectionEntry">
@@ -43879,7 +43893,21 @@ Athanaeans - Telepathy</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="7259-da4d-9ff6-a163" name="New EntryLink" hidden="false" targetId="c5a2-5d3b-99c9-7b99" type="selectionEntry">
@@ -43965,7 +43993,21 @@ Athanaeans - Telepathy</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-d223-be9f-4960" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c55-dd66-6f7b-8bc8" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>

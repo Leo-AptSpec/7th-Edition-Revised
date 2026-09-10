@@ -11,7 +11,7 @@ Rebuild upstream's view of any file with
 
 ## Chaos Space Marines — Codex (2012)
 
-File: `Chaos Space Marines - Codex.cat` · catalogue revision 2026 → 2027
+File: `Chaos Space Marines - Codex.cat` · catalogue revision 2026 → 2028
 
 ### 1. Typhus missing from Lord of the Legion — *confirmed*
 
@@ -77,6 +77,36 @@ predicts marks were equally broken there. If Black Legion marks worked
 fine before this change, the engine does resolve link ids, the theory is
 dead, and the real cause is still open.
 
+### 3. Magnus, Ahriman and Abaddon selectable in a Death Guard Vectorium — *confirmed*
+
+**Symptom.** Codex: Traitor Legions p.116 says a Death Guard Detachment
+"cannot include any Unique units other than Typhus" — every other named
+character is forbidden. But Lord of the Legion's Pick One group (see fix
+#1 above) still let Magnus the Red, Ahriman and Abaddon the Despoiler
+through under Death Guard, since only Typhus's own entry was gated (fix
+#1) and the group's other three named-character entries carried no
+legion condition at all.
+
+**Cause.** `b924-f681-c206-ebb9` → Magnus the Red, `3b05-e6d8-eca6-6f71` →
+Ahriman, and `5118-d1bb-6e11-bf0a` → Abaddon the Despoiler each had an
+empty `<modifiers/>`. Nothing hid them under any legion, Death Guard
+included. (This is correct and intentional for every *other* legion —
+Codex: Chaos Space Marines lets any Traitor Legion army take any of these
+three; Death Guard is the one legion with an explicit exclusivity clause.)
+
+**Fix.** Added a `set hidden=true` modifier to all three entryLinks,
+firing when Death Guard is selected. Matched Typhus's own fix (#1) for
+robustness against the dual-id issue in #2: the condition is an OR of
+both id forms seen for Death Guard elsewhere in this file — entryLink id
+`4635-d223-be9f-4960` and selectionEntry id `9c55-dd66-6f7b-8bc8` — so it
+fires regardless of which form the engine actually resolves in a given
+Force Org context.
+
+Chaos Lord, Sorcerer and Daemon Prince entries in the same Pick One group
+were deliberately left alone — they're generic HQ choices, not unique
+units, and the book's own Vectorium description (p.118) lists them as
+legal Death Guard picks.
+
 ---
 
 ## Known issues, not yet fixed
@@ -93,16 +123,23 @@ Found while investigating the above; left alone deliberately.
   are all `type="model"`. Affects per-model points modifiers and how he
   renders. He is linked from five places, so changing it touches all of
   them — do it deliberately, not as a side effect.
-- **Magnus the Red, Ahriman and Abaddon are ungated** in Lord of the
-  Legion's Pick One group, so Abaddon can currently be taken in a Death
-  Guard Vectorium.
 - **Death Guard is broadly under-implemented.** Black Legion is referenced
-  23 times in this catalogue, Death Guard 10. Expect more gaps.
+  23 times in this catalogue, Death Guard 10. Expect more gaps. Not yet
+  checked: Daemon Princes forced to have Daemon of Nurgle, and the
+  Vectorium's own Core/Auxiliary/Command formation composition (pp.118-119)
+  against what the catalogue actually offers.
 
 ## Verifying before commit
 
+Confirm the file is still well-formed XML. `python` is not guaranteed to be
+on the machine (it wasn't, this session) — either of these works:
+
 ```sh
 python -c "import xml.etree.ElementTree as ET; ET.parse('Chaos Space Marines - Codex.cat')"
+```
+
+```powershell
+try { [xml](Get-Content -Raw "Chaos Space Marines - Codex.cat"); "XML VALID" } catch { "XML INVALID: $($_.Exception.Message)" }
 ```
 
 Bump the catalogue's `revision` attribute on every data change, or clients
