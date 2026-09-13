@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4fe1-8588-ca35-920b" name="Cult Mechanicus: Codex (2015)" book="Codex: Cult Mechanicus" revision="2020" battleScribeVersion="2.00" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4fe1-8588-ca35-920b" name="Cult Mechanicus: Codex (2015)" book="Codex: Cult Mechanicus" revision="2021" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -446,7 +446,7 @@ Until the start of your next turn, all friendly models with the Doctrina Imperat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8be-8aee-90fa-b7a0" name="Elimination Maniple" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit">
@@ -496,7 +496,7 @@ Until the start of your next turn, all friendly models with the Doctrina Imperat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a2f-c5c0-2e87-802e" name="Show Forgeworld" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -509,45 +509,45 @@ Until the start of your next turn, all friendly models with the Doctrina Imperat
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5521-b589-5090-fb58" name="Warlord Battle Titan" hidden="true" collective="false" categoryEntryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model">
       <profiles>
-        <profile id="4298-7228-9498-de62" name="Warlord Battle Titan" hidden="false" profileTypeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413">
+        <profile id="4298-7228-9498-de62" name="Warlord Battle Titan" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="2"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="D"/>
-            <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="15"/>
-            <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="15"/>
-            <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="14"/>
-            <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="4"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-            <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="30"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Super-heavy Walker)"/>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">2</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">D</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">15</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">15</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">14</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">30</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Super-heavy Walker)</characteristic>
           </characteristics>
         </profile>
-        <profile id="7187-a3c0-15d5-96ee" name="Armoured Ceramite" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+        <profile id="7187-a3c0-15d5-96ee" name="Armoured Ceramite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
           </characteristics>
         </profile>
-        <profile id="ee74-854c-7ea4-4af9" name="Void Shields" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+        <profile id="ee74-854c-7ea4-4af9" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Warlord Titans have 6 Void Shields."/>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Warlord Titans have 6 Void Shields.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -671,16 +671,16 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntries>
         <selectionEntry id="6798-27cd-c71b-af16" name="Ardex-defensor Mauler Bolt Cannon Turrets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="5cc1-46b6-68ce-5564" name="Ardex-defensor Mauler Bolt Cannon Turrets" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+            <profile id="5cc1-46b6-68ce-5564" name="Ardex-defensor Mauler Bolt Cannon Turrets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6, Twin-linked, Ardex Machina"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Twin-linked, Ardex Machina</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -703,21 +703,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="edfc-50a3-a025-9a64" name="Rear-mounted Ardex-defensor Twin-linked Lascannon Turrets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="dfbc-4ab3-d280-0fa6" name="Rear-mounted Ardex-defensor Twin-linked Lascannon Turrets" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+            <profile id="dfbc-4ab3-d280-0fa6" name="Rear-mounted Ardex-defensor Twin-linked Lascannon Turrets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="9"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Ardex Machina"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Ardex Machina</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -740,7 +740,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -757,16 +757,16 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <selectionEntries>
             <selectionEntry id="f38d-0eea-bec5-a04a" name="Belicosa Pattern Volcano Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="811b-2180-6b66-9d7d" name="Belicosa Pattern Volcano Cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="811b-2180-6b66-9d7d" name="Belicosa Pattern Volcano Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Blast, Machine Destroyer"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Machine Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -788,21 +788,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="986b-132a-906b-4a32" name="Sunfury Plasma Annihilator" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="ce46-261a-095a-ab26" name="Sunfury Plasma Annihilator" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="ce46-261a-095a-ab26" name="Sunfury Plasma Annihilator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="9"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 4, Apocalyptic Barrage, Plasma Wave"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 4, Apocalyptic Barrage, Plasma Wave</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -824,21 +824,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="153f-573b-f850-b9a1" name="Mori Quake Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="fdf0-f308-d8c1-7216" name="Mori Quake Cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="fdf0-f308-d8c1-7216" name="Mori Quake Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;-360&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D/9/6"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Blast, Seismic Shock, Concussion, Strikedown"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D/9/6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Seismic Shock, Concussion, Strikedown</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -860,21 +860,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d926-2b74-5b88-dcf7" name="Arioch Titan Power Claw" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="96c9-1988-17c8-3459" name="Arioch Titan Power Claw" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="96c9-1988-17c8-3459" name="Arioch Titan Power Claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Machine Destroyer"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Machine Destroyer</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -896,21 +896,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f427-7185-95ce-67ea" name="Macro-gatling Blaster" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="2873-278c-df32-77fd" name="Macro-gatling Blaster" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="2873-278c-df32-77fd" name="Macro-gatling Blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="10"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 6, Large Blast, Pinning"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 6, Large Blast, Pinning</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -924,7 +924,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -943,16 +943,16 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <selectionEntries>
             <selectionEntry id="962c-d9cb-22ee-9a07" name="Two Apocalypse Missile Launchers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="6827-d2d8-a0f5-bf23" name="Two Apocalypse Missile Launchers" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="6827-d2d8-a0f5-bf23" name="Two Apocalypse Missile Launchers" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;-360&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 5, Apocalyptic Barrage"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 5, Apocalyptic Barrage</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -966,21 +966,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a51-f786-a78b-9395" name="Two Double-barrleed Turbo Laser Destructors" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="471b-9332-a440-67a5" name="Two Double-barrleed Turbo Laser Destructors" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="471b-9332-a440-67a5" name="Two Double-barrleed Turbo Laser Destructors" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 2, Large Blast"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 2, Large Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -994,33 +994,33 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="65dd-50de-fdca-059f" name="Two Twin-linked Plasma Blastguns" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="711c-80ad-e4af-fcec" name="Titan Plasma Blastgun - Rapid" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="711c-80ad-e4af-fcec" name="Titan Plasma Blastgun - Rapid" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 2, Massive Blast"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 2, Massive Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="a9d0-622c-a54a-767a" name="Titan Plasma Blastgun - Overload" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="a9d0-622c-a54a-767a" name="Titan Plasma Blastgun - Overload" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="10"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Blast"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1034,21 +1034,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aaec-5d97-cef3-3d75" name="Two Reaver Laser Blasters" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="8fbc-e949-2e14-f675" name="Two Reaver Laser Blasters" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="8fbc-e949-2e14-f675" name="Two Reaver Laser Blasters" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="96&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 3, Large Blast"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 3, Large Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1062,21 +1062,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="100.0"/>
+                <cost name="pts" typeId="points" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="33cf-b8e4-ccb3-3472" name="Two Reaver Melta Cannons" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="de8b-b3cb-9353-123b" name="Two Reaver Melta Cannons" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="de8b-b3cb-9353-123b" name="Two Reaver Melta Cannons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="10"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Blast, Melta"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Melta</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1090,21 +1090,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="100.0"/>
+                <cost name="pts" typeId="points" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4757-e655-74ae-9116" name="Two Reaver Gatling Blasters" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="43f0-2747-5695-5df0" name="Two Reaver Gatling Blasters" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="43f0-2747-5695-5df0" name="Two Reaver Gatling Blasters" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 6, Large Blast, Pinning"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 6, Large Blast, Pinning</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1118,21 +1118,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="100.0"/>
+                <cost name="pts" typeId="points" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="90c7-df85-cab8-ee2f" name="Two Vortex Missile Banks" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="9e38-46f2-986d-903b" name="Two Vortex Missile Banks" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="9e38-46f2-986d-903b" name="Two Vortex Missile Banks" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;-360&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Large Blast, Vortex, 2x One Use Only"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;-360&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Large Blast, Vortex, 2x One Use Only</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1146,21 +1146,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="150.0"/>
+                <cost name="pts" typeId="points" value="150.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bc60-6578-9dd1-025a" name="Two Incinerator Missile Banks" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="2d4e-445c-8853-18ab" name="Two Incinerator Missile Banks" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                <profile id="2d4e-445c-8853-18ab" name="Two Incinerator Missile Banks" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;-360&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 10, Apocalyptic Barrage, No Cover Saves, One Use Only"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;-360&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 10, Apocalyptic Barrage, No Cover Saves, One Use Only</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1174,7 +1174,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="75.0"/>
+                <cost name="pts" typeId="points" value="75.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1184,7 +1184,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="2750.0"/>
+        <cost name="pts" typeId="points" value="2750.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63aa-7910-c714-4e9e" name="Eradication Cohort" hidden="false" collective="false" categoryEntryId="c74a-8375-a01c-b336" type="unit">
@@ -1239,7 +1239,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4445-194a-bb89-938a" name="Conclave Aquisitorius" hidden="false" collective="false" categoryEntryId="ff1f-407f-7686-d832" type="unit">
@@ -1305,7 +1305,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1536,7 +1536,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b19a-1408-dcef-68b1" name="Artificer armour" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1559,7 +1559,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8be-72ef-3a2c-92f7" name="Cognis flamer" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1595,7 +1595,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0758-878f-ce43-f01e" name="Conversion field" book="Codex: Cult Mechanicus" page="56" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1625,7 +1625,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a62-e7bc-7869-ad26" name="Corpuscarii Electro-Priest" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1648,7 +1648,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="18.0"/>
+        <cost name="pts" typeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="931d-007d-20f7-5f4b" name="Corpuscarii Electro-Priests" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -1749,7 +1749,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0909-cd10-dc33-e5ef" name="Cybernetica Datasmith" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1834,7 +1834,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb96-2aee-bd00-98e3" name="Dataspike" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1869,7 +1869,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9c4-9d15-2d10-0324" name="Digital weapons" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1899,7 +1899,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31b1-6503-4733-d139" name="Electroleech stave" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1940,7 +1940,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90f3-337f-37f4-867f" name="Electrostatic gauntlets" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1969,7 +1969,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6c0-21bd-76a2-106b" name="Erradication ray" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1999,7 +1999,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5264-2296-559d-5582" name="Fulgurite Electro-Priest" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2022,7 +2022,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="18.0"/>
+        <cost name="pts" typeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95c0-9650-abc8-3212" name="Fulgurite Electro-Priests" book="Codex: Cult Mechanicus" page="62" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -2123,7 +2123,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aee1-7d99-6fff-4b9e" name="Gamma pistol" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2152,7 +2152,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39d6-4f2e-e805-a160" name="Heavy arc rifle" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2180,7 +2180,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f25-f33b-e0f6-d13d" name="Heavy grav-cannon" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2214,7 +2214,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cbd-e474-bee8-f5ff" name="Heavy phosphor blaster" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2250,7 +2250,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57fc-2731-ac8c-f480" name="Hydraulic claw" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2292,7 +2292,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc08-0f0d-2a1d-8314" name="Incendine combustor" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2320,7 +2320,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="635f-ac5a-200e-35cf" name="Infoslave Skull" book="Codex: Cult Mechanicus" page="77" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2356,7 +2356,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bf6-6a42-2421-bb4b" name="Kastelan battlehide" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2379,7 +2379,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7ae-70d3-4d11-abf8" name="Kastelan Robot" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2487,7 +2487,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="120.0"/>
+        <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99eb-e6d9-d466-8d5e" name="Kastelan Robot Maniple" book="Codex: Cult Mechanicus" page="64" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -2559,7 +2559,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f49-9dfd-371d-8f9f" name="Kataphron Breacher" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2639,7 +2639,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3cb-92eb-7055-6551" name="Kataphron breacherplate" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2662,7 +2662,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b12e-945e-63f9-613e" name="Kataphron Breachers" book="Codex: Cult Mechanicus" page="60" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -2740,7 +2740,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b689-8680-5f35-10da" name="Kataphron demiplate" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2763,7 +2763,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f59b-03d7-4c17-e9e7" name="Kataphron Destroyer" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2843,7 +2843,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="55.0"/>
+        <cost name="pts" typeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="faf0-ed0a-e246-e549" name="Kataphron Destroyers" book="Codex: Cult Mechanicus" page="61" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -2914,7 +2914,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9709-6604-0a3e-6af7" name="Macrostubber" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2942,7 +2942,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d58-e454-11ed-8f7f" name="Mechadendrite harness" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2983,7 +2983,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcab-fcbb-bc52-ccbb" name="Ordinatus-Minoris Macro Engine" book="Horus Heresy: Mechanicum - Taghmata Army List" page="62" hidden="true" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3107,7 +3107,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3150,7 +3150,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3160,7 +3160,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="700.0"/>
+                <cost name="pts" typeId="points" value="700.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="410a-f63c-e681-5a04" name="Ordinatus Ulator" book="" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3264,7 +3264,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3307,7 +3307,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3317,7 +3317,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="1075.0"/>
+                <cost name="pts" typeId="points" value="1075.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3327,7 +3327,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07fb-c340-43aa-b5eb" name="Phosphor blaster" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3355,7 +3355,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7d7-262b-9129-1130" name="Phosphor serpenta" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3391,7 +3391,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9916-fa42-12be-a666" name="Plasma culverin" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3419,7 +3419,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3aa5-29e5-f124-5923" name="Power axe" book="BRB 2014" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3448,7 +3448,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2edd-cee1-049e-3c4e" name="Power fist" book="BRB 2014" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3483,7 +3483,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19ea-60a8-a57c-adcd" name="Refractor field" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3503,7 +3503,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="75f3-a0f7-fac1-237d" name="Scryerskull" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3526,7 +3526,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e90-8c1c-e97d-da73" name="Stasis field" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3556,7 +3556,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1b3-c303-2051-20f0" name="Tech-Priest Dominus" book="Codex: Cult Mechanicus" page="59" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3759,7 +3759,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="105.0"/>
+        <cost name="pts" typeId="points" value="105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="735a-3962-f6e8-098c" name="Torsion cannon" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3787,7 +3787,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a33-89f7-305a-d066" name="Twin-linked heavy phosphor blaster" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3829,7 +3829,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2fe4-7e79-daff-1dd4" name="Two power fists" book="BRB 2014" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3863,7 +3863,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8773-7968-dbb0-be92" name="Volkite blaster" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3891,7 +3891,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8219-6f9e-cacd-8ba7" name="Voltagheist field" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3920,7 +3920,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb49-2dc4-7412-a68c" name="Warlord" hidden="false" collective="false" type="upgrade">
@@ -3936,7 +3936,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="172c-4280-03bd-e04d" name="Tech-Priest Enginseer" hidden="false" collective="false" type="unit">
@@ -4084,7 +4084,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69ba-a48c-5dd3-4d0b" name="Servitors" hidden="false" collective="false" type="upgrade">
@@ -4149,7 +4149,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4266,7 +4266,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54ec-0cf8-c914-fcba" name="Servitor" hidden="false" collective="false" type="model">
@@ -4286,7 +4286,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4184-9ab7-d09c-9165" name="Laspistol" hidden="false" collective="false" type="upgrade">
@@ -4309,7 +4309,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28d4-3df0-dc5d-5544" name="Frag and Krak Grenades" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4338,7 +4338,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b792-9d43-b80b-43d1" name="Melta Bomb" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4380,7 +4380,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a9f-785d-3da8-f696" name="Plasma Cannon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4416,7 +4416,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bfb-63d8-6719-b8db" name="Multi-Melta" book="BRB 2014" page="177" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4452,7 +4452,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e977-db99-f88b-eca1" name="Heavy Bolter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4482,7 +4482,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1323-f065-796d-fd19" name="Cohort Cybernetica" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit">
@@ -4537,7 +4537,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="788f-112f-c63a-9226" name="Numinous Conclave" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit">
@@ -4615,7 +4615,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9543-4c8e-0c7c-8a2a" name="Holy Requisitioner" book="Codex: Cult Mechanicus" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit">
@@ -4692,7 +4692,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4708,13 +4708,13 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
       <selectionEntries>
         <selectionEntry id="d62f-a958-4f38-3178" name="The Scryerskull Perspicatus" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="2970-6861-b1fc-1c0d" name="The Scryerskull Perspicatus" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="2970-6861-b1fc-1c0d" name="The Scryerskull Perspicatus" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of each of your turns, a model with the Scryerskull Perspicatus can choose either to identify a single Mysterious Objective or to scry an enemy vehicle anywhere on the battlefield. If you choose to scry a vehicle, any friendly units with the Cult Mechanicus or Skitarii Faction re-roll failed armour penetration rolls against that vehicle, and can choose to re-roll glancing hits scored on it in an attempt to instead get a penetrating hit, until the start of your next turn."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each of your turns, a model with the Scryerskull Perspicatus can choose either to identify a single Mysterious Objective or to scry an enemy vehicle anywhere on the battlefield. If you choose to scry a vehicle, any friendly units with the Cult Mechanicus or Skitarii Faction re-roll failed armour penetration rolls against that vehicle, and can choose to re-roll glancing hits scored on it in an attempt to instead get a penetrating hit, until the start of your next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4744,30 +4744,30 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d90c-ca5a-e71e-580d" name="Anzion&apos;s Pseudogenetor" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="0fed-9fe3-2dc8-8316" name="Anzion&apos;s Pseudogenetor" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+            <profile id="0fed-9fe3-2dc8-8316" name="Anzion&apos;s Pseudogenetor" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Shred"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred</characteristic>
               </characteristics>
             </profile>
-            <profile id="753b-7e68-b893-aff1" name="Anzion&apos;s Pseudogenetor" book="Codex: Cult Mechanicus" page="79" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="753b-7e68-b893-aff1" name="Anzion&apos;s Pseudogenetor" book="Codex: Cult Mechanicus" page="79" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When fighting in close combat, a model equipped with this relic makes D6 additional attacks using the Anzion&apos;s Pseudorgenetor profile, in addition to any close combat attacls it makes."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When fighting in close combat, a model equipped with this relic makes D6 additional attacks using the Anzion&apos;s Pseudorgenetor profile, in addition to any close combat attacls it makes.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4790,18 +4790,18 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a99d-e845-269d-da1a" name="Autocaduceus of Arkhan Land" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="e4c7-6844-c3b8-f407" name="Autocaduceus of Arkhan Land" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="e4c7-6844-c3b8-f407" name="Autocaduceus of Arkhan Land" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The bearer and his unit have It Will Not Die special rule."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer and his unit have It Will Not Die special rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4838,18 +4838,18 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3286-6e62-b8e0-ef8b" name="Raiment of Technomartyr" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="ee6d-acf7-63b2-05ec" name="Raiment of Technomartyr" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="ee6d-acf7-63b2-05ec" name="Raiment of Technomartyr" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="2+ armour save. All ranged weapons carried by models with the Cult Mechanicus or Skitarii Faction in the bearer&apos;s unit have the Cognis Weapons special rule."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">2+ armour save. All ranged weapons carried by models with the Cult Mechanicus or Skitarii Faction in the bearer&apos;s unit have the Cognis Weapons special rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4880,18 +4880,18 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="932a-388f-9787-320a" name="Mask of the Alpha Dominus" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="c72a-d0b8-16fa-008f" name="Mask of the Alpha Dominus" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="c72a-d0b8-16fa-008f" name="Mask of the Alpha Dominus" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The bearer can use the Mask of the Alpha Dominus at any time to instantly change the Battle Protocol of a friendly Kastelan Robot Maniple or Cohort Cybernetica Formation within 12&quot; of the bearer. The new Battle Protocol becomes active immediately. However, the unit or Formation cannot use the Battle Protocol that they changed from for the rest of the battle."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer can use the Mask of the Alpha Dominus at any time to instantly change the Battle Protocol of a friendly Kastelan Robot Maniple or Cohort Cybernetica Formation within 12&quot; of the bearer. The new Battle Protocol becomes active immediately. However, the unit or Formation cannot use the Battle Protocol that they changed from for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4914,7 +4914,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aae9-d127-3d35-6630" name="Uncreator Gauntlet" book="Codex: Cult Mechanicus" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4945,7 +4945,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5314,635 +5314,635 @@ If the result is 5 or more you may either restore a Hull Point or repair a Weapo
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="7e9a-e900-7fd5-fc63" name="Anbaric Claw (Details)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="7e9a-e900-7fd5-fc63" name="Anbaric Claw (Details)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle may trigger its Anbaric claw in any turn in which it is being attacked in the Assault phase, and at any point when it is either being rammed by another vehicle or is ramming an enemy vehicle itself, with the limitation that the anbaric claw can only be used once per player turn.  When the claw is triggered it automatically strikes all units within 1&quot; of the carrying vehicle&apos;s hull, whether friend or foe (although models being transported inside vehicles are unaffected), and any rammed or ramming vehicles  The Anbaric claw inflicts D6 hits on any unit it strikes. If being used in the assault phase, the Anbaric&apos;s effects are worked out at Initiative 10.  If being used while a ram is conducted, its effects are simultaneous with working out damage caused by ramming."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle may trigger its Anbaric claw in any turn in which it is being attacked in the Assault phase, and at any point when it is either being rammed by another vehicle or is ramming an enemy vehicle itself, with the limitation that the anbaric claw can only be used once per player turn.  When the claw is triggered it automatically strikes all units within 1&quot; of the carrying vehicle&apos;s hull, whether friend or foe (although models being transported inside vehicles are unaffected), and any rammed or ramming vehicles  The Anbaric claw inflicts D6 hits on any unit it strikes. If being used in the assault phase, the Anbaric&apos;s effects are worked out at Initiative 10.  If being used while a ram is conducted, its effects are simultaneous with working out damage caused by ramming.</characteristic>
       </characteristics>
     </profile>
-    <profile id="efa9-a86e-3e77-73f2" name="Anbaric Claw (Weapon)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="efa9-a86e-3e77-73f2" name="Anbaric Claw (Weapon)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Rending"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending</characteristic>
       </characteristics>
     </profile>
-    <profile id="c2ed-b7e1-f4d3-a3b5" name="Arc Claw" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="c2ed-b7e1-f4d3-a3b5" name="Arc Claw" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1cf-a958-9ec2-fb13" name="Armored Ceramite" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="b1cf-a958-9ec2-fb13" name="Armored Ceramite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle with this wargear is not subject to the additional D6 armour penetrationc aused by weapons with the Melta special rule."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle with this wargear is not subject to the additional D6 armour penetrationc aused by weapons with the Melta special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d42-822a-b255-2e4a" name="Artificer Armour" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="1d42-822a-b255-2e4a" name="Artificer Armour" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="2+ Armour Save"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">2+ Armour Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="2243-cbda-4330-26e3" name="Belicosa Pattern Volcano Cannon" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="2243-cbda-4330-26e3" name="Belicosa Pattern Volcano Cannon" book="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="180&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="D"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Apocalyptic Blast (10&quot;), Machine Destroyer"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast (10&quot;), Machine Destroyer</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e62-6910-83ef-2698" name="Blessed Autosimulacra" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="3e62-6910-83ef-2698" name="Blessed Autosimulacra" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a vehicle has suffered Hull Point damage at the end of the controlling player&apos;s turn, roll a D6. On a 6, one lost Hull Point is restored."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a vehicle has suffered Hull Point damage at the end of the controlling player&apos;s turn, roll a D6. On a 6, one lost Hull Point is restored.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7bd7-9340-6813-68c3" name="Cognis Flamer" book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="7bd7-9340-6813-68c3" name="Cognis Flamer" book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Cognis Flamewall"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Cognis Flamewall</characteristic>
       </characteristics>
     </profile>
-    <profile id="00a6-47ae-65f8-d376" name="Conversion Field" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="00a6-47ae-65f8-d376" name="Conversion Field" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="4++ invulnerable save.  After successful save[s], at end of that phase, all units within D6&quot; must test Blind. Friendly units re-roll test."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">4++ invulnerable save.  After successful save[s], at end of that phase, all units within D6&quot; must test Blind. Friendly units re-roll test.</characteristic>
       </characteristics>
     </profile>
-    <profile id="92ca-868e-ca7c-b42c" name="Corpuscarii Electro-Priest" book="Codex: Cult Mechanicus" page="63" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="92ca-868e-ca7c-b42c" name="Corpuscarii Electro-Priest" book="Codex: Cult Mechanicus" page="63" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ae45-8d1f-bdac-43e8" name="Cybernetica Datasmith" book="Codex: Cult Mechanicus" page="64" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="ae45-8d1f-bdac-43e8" name="Cybernetica Datasmith" book="Codex: Cult Mechanicus" page="64" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="8ef2-030a-32e4-9c61" name="Dataspike" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="8ef2-030a-32e4-9c61" name="Dataspike" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Dataspike, Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Dataspike, Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="e7bd-985a-500d-37a0" name="Digital Weapons" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="e7bd-985a-500d-37a0" name="Digital Weapons" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each Assault phase, model may re-roll single failed To Wound roll."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Assault phase, model may re-roll single failed To Wound roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c881-7b3d-4616-0935" name="Electroleech Stave" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="c881-7b3d-4616-0935" name="Electroleech Stave" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Two-Handed, Concussive, Electroleech"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-Handed, Concussive, Electroleech</characteristic>
       </characteristics>
     </profile>
-    <profile id="cbb7-e313-eaed-208a" name="Electrostatic Gauntlets (melee)" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="cbb7-e313-eaed-208a" name="Electrostatic Gauntlets (melee)" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="2673-31d7-d9c7-08f5" name="Electrostatic Gauntlets (ranged)" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="2673-31d7-d9c7-08f5" name="Electrostatic Gauntlets (ranged)" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2, Twin-Linked"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Twin-Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="7a7b-da0f-ecb2-0305" name="Erradication Ray" book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="7a7b-da0f-ecb2-0305" name="Erradication Ray" book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot; / 24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8 / 6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1 /3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1 / Blast"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot; / 24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8 / 6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1 /3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1 / Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccc8-18cf-8150-42f7" name="Fulgurite Electro-Priest" book="Codex: Cult Mechanicus" page="62" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="ccc8-18cf-8150-42f7" name="Fulgurite Electro-Priest" book="Codex: Cult Mechanicus" page="62" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff86-e6df-c87d-b353" name="Gamma Pistol" book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="ff86-e6df-c87d-b353" name="Gamma Pistol" book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Armourbane"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Armourbane</characteristic>
       </characteristics>
     </profile>
-    <profile id="5f6c-e763-a1b2-b7d9" name="Heavy Arc Rifle" book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="5f6c-e763-a1b2-b7d9" name="Heavy Arc Rifle" book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2, Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="3430-aa8e-6e44-9bb6" name="Heavy Grav-cannon " book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="3430-aa8e-6e44-9bb6" name="Heavy Grav-cannon " book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="*"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Salvo 4/6, Concussive, Graviton"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">*</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 4/6, Concussive, Graviton</characteristic>
       </characteristics>
     </profile>
-    <profile id="f51e-388a-8fdb-ab20" name="Heavy Phosphor Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="f51e-388a-8fdb-ab20" name="Heavy Phosphor Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3, Luminagen"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Luminagen</characteristic>
       </characteristics>
     </profile>
-    <profile id="adc3-296e-5c50-f122" name="Hydraulic Claw" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="adc3-296e-5c50-f122" name="Hydraulic Claw" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldy, Iron Grasp"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy, Iron Grasp</characteristic>
       </characteristics>
     </profile>
-    <profile id="2732-27b4-cffb-d98c" name="Incendine Combustor" book="Codex: Cult Mechanicus" page="74" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="2732-27b4-cffb-d98c" name="Incendine Combustor" book="Codex: Cult Mechanicus" page="74" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Torrent"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Torrent</characteristic>
       </characteristics>
     </profile>
-    <profile id="4cd3-1c16-ef14-0b72" name="Infoslave Skull" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="4cd3-1c16-ef14-0b72" name="Infoslave Skull" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="+1 Leadership and Acute Senses special rule."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">+1 Leadership and Acute Senses special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f3e9-e95e-d8a3-325c" name="Kastelan battlehide" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="f3e9-e95e-d8a3-325c" name="Kastelan battlehide" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="3+ Armour Save"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">3+ Armour Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="9421-039f-e206-4830" name="Kastelan Robot" book="Codex: Cult Mechanicus" page="64" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="9421-039f-e206-4830" name="Kastelan Robot" book="Codex: Cult Mechanicus" page="64" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Monstrous Creature"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="6"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="7"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="2"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="7"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monstrous Creature</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">7</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">2</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="f0bb-2073-062a-eccf" name="Kataphron Breacher" book="Codex: Cult Mechanicus" page="60" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="f0bb-2073-062a-eccf" name="Kataphron Breacher" book="Codex: Cult Mechanicus" page="60" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="5"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="8"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="58a9-3c0c-7600-925d" name="Kataphron Breacherplate" book="Codex: Cult Mechanicus" page="76" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="58a9-3c0c-7600-925d" name="Kataphron Breacherplate" book="Codex: Cult Mechanicus" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="3+ Armour Save"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">3+ Armour Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="8f06-d033-fcff-9b64" name="Kataphron Demiplate" book="Codex: Cult Mechanicus" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="8f06-d033-fcff-9b64" name="Kataphron Demiplate" book="Codex: Cult Mechanicus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="4+ Armour Save"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">4+ Armour Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="857d-44a9-d3f7-862a" name="Kataphron Destroyer" book="Codex: Cult Mechanicus" page="61" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="857d-44a9-d3f7-862a" name="Kataphron Destroyer" book="Codex: Cult Mechanicus" page="61" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="5"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="8"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="3dd5-ab78-7433-9b5d" name="Macrostubber" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="3dd5-ab78-7433-9b5d" name="Macrostubber" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="6"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Burst Pistol"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Burst Pistol</characteristic>
       </characteristics>
     </profile>
-    <profile id="ca21-a3e0-1ead-8460" name="Mechadendrite Harness" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="ca21-a3e0-1ead-8460" name="Mechadendrite Harness" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The wearer can fire with all of its ranged weapons in the Shooting Phase. In addition, the model is equipped with a Dataspike."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer can fire with all of its ranged weapons in the Shooting Phase. In addition, the model is equipped with a Dataspike.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5700-177a-1b44-05ae" name="Mechanicum Ordinatus Sagittar" book="" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f">
+    <profile id="5700-177a-1b44-05ae" name="Mechanicum Ordinatus Sagittar" book="" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="14"/>
-        <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="13"/>
-        <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="13"/>
-        <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="14"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Super-heavy)"/>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">14</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">13</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">13</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">14</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Super-heavy)</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa81-d1f0-102a-deea" name="Mechanicum Ordinatus Ulator" book="" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f">
+    <profile id="fa81-d1f0-102a-deea" name="Mechanicum Ordinatus Ulator" book="" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="14"/>
-        <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="13"/>
-        <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="13"/>
-        <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="14"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Super-heavy)"/>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">14</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">13</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">13</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">14</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Super-heavy)</characteristic>
       </characteristics>
     </profile>
-    <profile id="48f6-5e68-ce80-b257" name="Ordinatus Dispersion Shield" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="48f6-5e68-ce80-b257" name="Ordinatus Dispersion Shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The protection provided by the dispersion shiled affects only shooting attacks originating from its front and side arcs, and against barrage weapons from any arc.  On the first turn the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -3. On the second turn the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -2. On the third and subsequent turns the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -1."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The protection provided by the dispersion shiled affects only shooting attacks originating from its front and side arcs, and against barrage weapons from any arc.  On the first turn the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -3. On the second turn the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -2. On the third and subsequent turns the Ordinatus is in play, the strength of shooting attacks and the roll result on the Destroyer table made against it are at -1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a2d5-83a4-5d10-91e3" name="Phosphor Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="a2d5-83a4-5d10-91e3" name="Phosphor Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Luminagen"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Luminagen</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa4d-0d03-ba35-a0d6" name="Phosphor Serpenta" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="fa4d-0d03-ba35-a0d6" name="Phosphor Serpenta" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Luminagen"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Luminagen</characteristic>
       </characteristics>
     </profile>
-    <profile id="93f4-81fc-c95c-e696" name="Plasma Culverin" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="93f4-81fc-c95c-e696" name="Plasma Culverin" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2, Blast, Gets Hot"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Blast, Gets Hot</characteristic>
       </characteristics>
     </profile>
-    <profile id="af7b-d5b1-ec92-6c54" name="Refractor Field" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="af7b-d5b1-ec92-6c54" name="Refractor Field" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="5++ Invulnerable Save"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">5++ Invulnerable Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="e9a2-44f1-1774-a026" name="Scryerskull" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="e9a2-44f1-1774-a026" name="Scryerskull" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of each of your turns, this model can identify a single Mysterious Objective anywhere on the battlefield."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each of your turns, this model can identify a single Mysterious Objective anywhere on the battlefield.</characteristic>
       </characteristics>
     </profile>
-    <profile id="01c6-c42c-349e-3dfa" name="Stasis Field" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="01c6-c42c-349e-3dfa" name="Stasis Field" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="While a model equipped with a stasis field has Gone to Ground, it gains a 2++ invulnerable save, but its Weapon Skill and Ballistic Skill characteristics are reduced to 0."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a model equipped with a stasis field has Gone to Ground, it gains a 2++ invulnerable save, but its Weapon Skill and Ballistic Skill characteristics are reduced to 0.</characteristic>
       </characteristics>
     </profile>
-    <profile id="14c2-c8b4-6a3c-3f7b" name="Tech-Priest Dominus" book="Codex: Cult Mechanicus" page="59" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="14c2-c8b4-6a3c-3f7b" name="Tech-Priest Dominus" book="Codex: Cult Mechanicus" page="59" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f97-aee8-b583-538d" name="Torsion Cannon" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="1f97-aee8-b583-538d" name="Torsion Cannon" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Gravitic Contortion"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Gravitic Contortion</characteristic>
       </characteristics>
     </profile>
-    <profile id="92cc-757c-b533-f832" name="Ulator Class Sonic Destructor" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="92cc-757c-b533-f832" name="Ulator Class Sonic Destructor" book="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="X"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Primary Weapon 1, Ulator Sonic Wave, Pinning, Armour Bane, Instant Death, Ignores Cover"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Ulator Sonic Wave, Pinning, Armour Bane, Instant Death, Ignores Cover</characteristic>
       </characteristics>
     </profile>
-    <profile id="873b-2de3-4975-a798" name="Uncreator Gauntlet" book="Codex: Cult Mechanicus" page="78" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="873b-2de3-4975-a798" name="Uncreator Gauntlet" book="Codex: Cult Mechanicus" page="78" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model equipped with the Uncreator Gauntlet can use it in the Fight sub-phase instead of making its normal close combat attacks. To do so, nominate a vehicle model (friend or foe) in base contact with the bearer. If you choose an enemy vehicle, roll To Hit with a single Attack. If the attack hits, or if you chose a friendly vehicle, roll a D6 and consult the following table: ·1: Your opponent chooses for the vehicle to regain o lose 1 HP*. ·2-3: Choose for the vehicle  to regain o lose 1 HP*. ·4-5: Choose for the vehicle  to regain o lose D3 HP*. ·6: Choose for the vehicle  to regain o lose D6 HP*. * Invulnerable saves can be attempted against each Hull Point lost in this manner."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model equipped with the Uncreator Gauntlet can use it in the Fight sub-phase instead of making its normal close combat attacks. To do so, nominate a vehicle model (friend or foe) in base contact with the bearer. If you choose an enemy vehicle, roll To Hit with a single Attack. If the attack hits, or if you chose a friendly vehicle, roll a D6 and consult the following table: ·1: Your opponent chooses for the vehicle to regain o lose 1 HP*. ·2-3: Choose for the vehicle  to regain o lose 1 HP*. ·4-5: Choose for the vehicle  to regain o lose D3 HP*. ·6: Choose for the vehicle  to regain o lose D6 HP*. * Invulnerable saves can be attempted against each Hull Point lost in this manner.</characteristic>
       </characteristics>
     </profile>
-    <profile id="50d9-db0a-045e-2dd1" name="Volkite Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="50d9-db0a-045e-2dd1" name="Volkite Blaster" book="Codex: Cult Mechanicus" page="75" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3, Deflagrate"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Deflagrate</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d53-a37a-d9e2-4935" name="Volkite Culverin" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="5d53-a37a-d9e2-4935" name="Volkite Culverin" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="45&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4, Deflagrate"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">45&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Deflagrate</characteristic>
       </characteristics>
     </profile>
-    <profile id="d01a-5ba1-6232-d272" name="Voltagheist Field" book="Codex: Cult Mechanicus" page="77" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="d01a-5ba1-6232-d272" name="Voltagheist Field" book="Codex: Cult Mechanicus" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="5++ Invulnerable Save. Hammer of Wrath special rule, resolved at Strength 4. Model does not suffer Initiative penelty for charging through terrain."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">5++ Invulnerable Save. Hammer of Wrath special rule, resolved at Strength 4. Model does not suffer Initiative penelty for charging through terrain.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8927-c8c7-058c-ace7" name="Servitor" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+    <profile id="8927-c8c7-058c-ace7" name="Servitor" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="8"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="79bb-b026-72a2-59c8" name="Tech-Priest Enginseer" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+    <profile id="79bb-b026-72a2-59c8" name="Tech-Priest Enginseer" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="3"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="3"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="3"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="8"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="57d8-9594-281e-5001" name="Servo Arm" book="Codex: Dark Angels 2015" page="151" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="57d8-9594-281e-5001" name="Servo Arm" book="Codex: Dark Angels 2015" page="151" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="x2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldly, Specialist Weapon"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldly, Specialist Weapon</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

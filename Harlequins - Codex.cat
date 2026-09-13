@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="220f-669d-eef1-7ef0" name="Harlequins: Codex (2015)" book="Harlequins: Codex (2015), Death Masque (2016)" revision="2006" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="220f-669d-eef1-7ef0" name="Harlequins: Codex (2015)" book="Harlequins: Codex (2015), Death Masque (2016)" revision="2007" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -194,7 +194,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="deaa-7bca-67c9-975d" name="Cegorach&apos;s Jest" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -300,7 +300,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c96b-499d-e015-d113" name="Cegorach&apos;s Revenge" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -490,7 +490,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6329-1be4-1a12-16ce" name="Faolchú&apos;s Blade" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -561,7 +561,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd4d-9017-72b6-1511" name="The Coherian Host" book="Death Masque" page="35" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -701,7 +701,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ced3-648c-50fd-b092" name="The Heroes&apos; Path" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -812,7 +812,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb54-5061-387a-eee6" name="The Serpent&apos;s Brood" hidden="false" collective="false" categoryEntryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade">
@@ -953,7 +953,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1084,7 +1084,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02ea-ee79-1698-33c1" name="Company of the Threefold Stranger" book="Death Masque" page="31" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -1174,7 +1174,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d6d7-6c40-d1be-1865" name="Close combat weapon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1197,7 +1197,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5a71-9c2d-2359-c46a" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -1220,7 +1220,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1242,7 +1242,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a76c-1a60-d3a1-00a2" name="The Lambent Prince" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1282,7 +1282,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ee4-94e6-02c0-365f" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1311,7 +1311,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6ab3-69a8-1f12-1a3c" name="Haywire Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1340,7 +1340,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e34-6f0f-6fb5-f515" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -1363,7 +1363,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1408,7 +1408,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6ae-543a-dcb5-825a" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1454,7 +1454,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9543-1106-bd3c-a54e" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1483,7 +1483,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f248-fc53-4395-d642" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -1506,7 +1506,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1528,7 +1528,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2c1f-959b-1041-0624" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1568,7 +1568,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b4fc-fb42-7c5b-1a78" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1591,7 +1591,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="055b-84f0-27fc-110e" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -1614,7 +1614,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1636,7 +1636,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b70-4a4b-9a59-0393" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1682,7 +1682,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="18c6-72fe-6c2d-7ae7" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1705,7 +1705,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d751-e581-7b43-3fac" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -1728,7 +1728,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1750,7 +1750,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1765,7 +1765,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="155.0"/>
+        <cost name="pts" typeId="points" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1ae-c9a8-f84a-5319" name="Crescendo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1800,7 +1800,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="554a-3d04-930d-85ec" name="Death Jester" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -1948,7 +1948,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ed7-e2f3-63f5-4acb" name="Death&apos;s Companions" book="Death Masque" page="30" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -2038,7 +2038,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cd72-bf44-b799-9536" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2067,7 +2067,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3dc0-df23-0fe4-2ac6" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -2090,7 +2090,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2112,7 +2112,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2917-bb31-8af0-fae9" name="Dusk" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2172,7 +2172,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d1dd-3048-7434-3a7c" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -2195,7 +2195,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2239,7 +2239,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a08b-3ef7-a8a0-7fe2" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2279,7 +2279,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="749a-01e5-3321-d34b" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2308,7 +2308,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a2ac-0cce-ac7f-b23d" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -2331,7 +2331,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2353,7 +2353,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="11e4-3289-6ca6-d895" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2399,7 +2399,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2228-ac28-c4cf-124d" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2422,7 +2422,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="04b3-640e-ee3a-c125" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -2445,7 +2445,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2467,7 +2467,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9d7e-3876-a9a0-4ce2" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2513,7 +2513,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9fad-8f58-daba-bf7f" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2542,7 +2542,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6728-3476-6174-c539" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
@@ -2565,7 +2565,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2587,7 +2587,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2602,19 +2602,19 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="pts" typeId="points" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa97-8ce9-73c6-8af5" name="Eldrad Ulthran" book="Death Masque" page="29" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
-        <profile id="f11f-bce0-b73a-b7b7" name="Eldrad Ulthran" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d">
+        <profile id="f11f-bce0-b73a-b7b7" name="Eldrad Ulthran" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mastery Level" characteristicTypeId="ca56-02c3-af4b-ea2a" value="4"/>
-            <characteristic name="Disciplines" characteristicTypeId="ea53-f5c7-08e4-980c" value="Daemonology (Sanctic), Divination, Runes of Fate and Telepathy."/>
+            <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">4</characteristic>
+            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Daemonology (Sanctic), Divination, Runes of Fate and Telepathy.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2697,7 +2697,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9595-7709-85d6-f013" name="Witchblade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2720,18 +2720,18 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f6e6-16bd-8f6c-5a00" name="Ghosthelm" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="b5fd-3f34-d1ff-e9ba" name="Ghosthelm" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="b5fd-3f34-d1ff-e9ba" name="Ghosthelm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a model with a ghosthelm suffers an unsaved Wound from Perils of the Warp, he can prevent it by immediately expending a Warp Charge (if he has one)."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model with a ghosthelm suffers an unsaved Wound from Perils of the Warp, he can prevent it by immediately expending a Warp Charge (if he has one).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2746,21 +2746,21 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5dee-f540-711b-6945" name="Staff of Ulthamar" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="aebf-77c8-25f3-2f87" name="Staff of Ulthamar" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+            <profile id="aebf-77c8-25f3-2f87" name="Staff of Ulthamar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Spiritlink, Fleshbane, Force"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Spiritlink, Fleshbane, Force</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2796,18 +2796,18 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d4ac-1caa-f7a2-1cbb" name="Armour of the Last Runes" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="4c6a-4ca4-739d-99a2" name="Armour of the Last Runes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="4c6a-4ca4-739d-99a2" name="Armour of the Last Runes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Armour of the Last Runes confers a 3+ invulnerable save."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Armour of the Last Runes confers a 3+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2822,18 +2822,18 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4f15-b81e-3451-103e" name="Runes of the Farseer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="a39e-1641-138c-d009" name="Runes of the Farseer" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+            <profile id="a39e-1641-138c-d009" name="Runes of the Farseer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="One in each Psychic phase, Eldrad can re-roll any number of dice used in a single Deny the Witch test or Psychic test (potentially negating perils of the Warp)."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">One in each Psychic phase, Eldrad can re-roll any number of dice used in a single Deny the Witch test or Psychic test (potentially negating perils of the Warp).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2848,14 +2848,14 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="195.0"/>
+        <cost name="pts" typeId="points" value="195.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7246-0f49-9f43-466a" name="Flip Belt" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2878,7 +2878,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="103a-3422-560a-d46e" name="Haywire cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2906,7 +2906,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69b2-69e6-a277-4bde" name="Haywire grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2940,7 +2940,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c81-6306-887a-8b22" name="Holo-suit" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2963,7 +2963,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b001-5854-0f3d-f66b" name="Inriam&apos;s Spectre" book="Death Masque" page="32" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3064,7 +3064,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3123,7 +3123,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55a9-897e-dc72-bbe8" name="Mirage Launchers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3146,7 +3146,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0fad-3f05-cc61-b0ae" name="Shadowseer" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3219,7 +3219,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d2df-9269-ae91-0373" name="Hallucinogen grenade launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3248,7 +3248,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3330,7 +3330,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0952-7067-33be-47e4" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3358,7 +3358,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3385,14 +3385,14 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntries>
             <selectionEntry id="fea9-a312-f978-a437" name="Mastery Level 1" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="19e5-7d66-333e-1005" name="Shadowseer" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d">
+                <profile id="19e5-7d66-333e-1005" name="Shadowseer" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Mastery Level" characteristicTypeId="ca56-02c3-af4b-ea2a" value="1"/>
-                    <characteristic name="Disciplines" characteristicTypeId="ea53-f5c7-08e4-980c" value="Phantasmancy, Daemonology (Sanctic) and Telepathy."/>
+                    <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">1</characteristic>
+                    <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Phantasmancy, Daemonology (Sanctic) and Telepathy.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3406,19 +3406,19 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="990a-4191-0672-41e3" name="Mastery Level 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="c7a8-48ac-b38e-1af8" name="Shadowseer " hidden="false" profileTypeId="bc97-dea9-9e88-bb7d">
+                <profile id="c7a8-48ac-b38e-1af8" name="Shadowseer " hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Mastery Level" characteristicTypeId="ca56-02c3-af4b-ea2a" value="2"/>
-                    <characteristic name="Disciplines" characteristicTypeId="ea53-f5c7-08e4-980c" value="Phantasmancy, Daemonology (Sanctic) and Telepathy."/>
+                    <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">2</characteristic>
+                    <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Phantasmancy, Daemonology (Sanctic) and Telepathy.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3432,7 +3432,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3493,7 +3493,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f385-59b2-7bfa-2c8b" name="Shrieker Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3554,7 +3554,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85a7-07fa-e9dd-b78e" name="Shuriken Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3582,7 +3582,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e072-9362-c789-f027" name="Skyweavers" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3647,7 +3647,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3681,7 +3681,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c394-b616-aa8c-c4ae" name="Zephyrglaive" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3703,7 +3703,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3745,7 +3745,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3778,7 +3778,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3793,7 +3793,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd7e-6601-6c75-4f8f" name="Solitaire" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -3916,7 +3916,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3956,7 +3956,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4060,7 +4060,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="145.0"/>
+        <cost name="pts" typeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7008-ff1a-06cd-14bc" name="Starweaver" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -4109,7 +4109,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eda8-76f7-c021-a45e" name="Shuriken Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4138,7 +4138,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4153,7 +4153,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a16-799d-288b-8bdc" name="The Blades of Fate" book="Death Masque" page="33" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -4230,7 +4230,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="43ad-8b6b-12e1-b286" name="Zephyrglaive" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4253,7 +4253,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4282,7 +4282,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4297,7 +4297,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="pts" typeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c464-0971-9e07-5b52" name="The Laughing God&apos;s Eye" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4320,7 +4320,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f34-b408-78ea-9ea9" name="The Mask of Secrets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4343,7 +4343,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb66-664d-6593-a03a" name="The Serpent&apos;s Breath" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -4398,7 +4398,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="be68-3160-39b5-c7c8" name="Prismatic cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4433,7 +4433,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="52ef-5cbe-aaac-65de" name="Shuriken Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4462,7 +4462,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4477,7 +4477,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="90.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d30-eea5-88db-53fe" name="The Starmist Raiment" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4500,7 +4500,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="543c-f079-c9d2-9f6b" name="The Storied Sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4523,7 +4523,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8aa5-f523-060d-cfc3" name="Troupe" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -4595,7 +4595,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4635,7 +4635,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6e59-4a7f-a8d8-6b08" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4663,7 +4663,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e408-14ca-a24b-7820" name="Fusion Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4685,7 +4685,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4721,7 +4721,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d677-6389-3a25-44cc" name="Harlequin&apos;s Embrace" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4749,7 +4749,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d188-c9c7-53cc-04e0" name="Harlequin&apos;s Kiss" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4777,7 +4777,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="57dd-8f68-b466-63ff" name="Harlequin&apos;s Caress" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4805,7 +4805,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="8.0"/>
+                    <cost name="pts" typeId="points" value="8.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4830,7 +4830,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="843b-e88b-32be-dde0" name="Troupe Master" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4870,7 +4870,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4904,7 +4904,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="de52-dd2c-1b10-1cef" name="Harlequin&apos;s Embrace" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4932,7 +4932,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3f8f-93a4-132c-64d7" name="Harlequin&apos;s Kiss" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4960,7 +4960,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4ab5-b3d6-7e64-80f8" name="Harlequin&apos;s Caress" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4988,7 +4988,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="8.0"/>
+                    <cost name="pts" typeId="points" value="8.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ad4e-2d61-5aac-0bb4" name="Power sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5010,7 +5010,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5083,7 +5083,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3fa7-e469-4a0b-c565" name="Neuro Disruptor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5111,7 +5111,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="df7c-5e8d-d225-cf1f" name="Fusion Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5133,7 +5133,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5258,7 +5258,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5282,7 +5282,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfb5-56ac-f4cf-3edd" name="Voidweavers" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -5353,7 +5353,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9b34-f883-bc50-b5a5" name="Shuriken Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5382,7 +5382,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5428,7 +5428,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="5.0"/>
+                        <cost name="pts" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0092-5797-7073-861b" name="Haywire cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5456,7 +5456,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5474,7 +5474,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="75.0"/>
+                <cost name="pts" typeId="points" value="75.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5492,7 +5492,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a400-4f22-4bdf-6674" name="Warlord (Shadowseer or Death Jester)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5531,7 +5531,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c14-1a75-5e7c-f4b8" name="Warlord (Solitaire)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5565,7 +5565,7 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e10-ddcc-49e6-7128" name="Warlord (Troupe Master)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5616,37 +5616,37 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a84c-5fb5-f141-390e" name="The Yncarne, Avatar of Ynnead" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="84b4-9ee9-2793-eba7" name="The Yncarne" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+        <profile id="84b4-9ee9-2793-eba7" name="The Yncarne" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Monstrous Creature (Character)"/>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="9"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="7"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="6"/>
-            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="6"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="5"/>
-            <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="10"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="6"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+/5++"/>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monstrous Creature (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">9</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">7</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">6</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">5</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">10</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">6</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+/5++</characteristic>
           </characteristics>
         </profile>
-        <profile id="8926-c658-b0f1-1167" name="The Yncarne (Psyker)" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
+        <profile id="8926-c658-b0f1-1167" name="The Yncarne (Psyker)" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mastery Level" characteristicTypeId="ca56-02c3-af4b-ea2a" value="3"/>
-            <characteristic name="Disciplines" characteristicTypeId="ea53-f5c7-08e4-980c" value="Daemonology (Sanctic), Revenant"/>
+            <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">3</characteristic>
+            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Daemonology (Sanctic), Revenant</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5754,16 +5754,16 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntries>
         <selectionEntry id="9dcd-e036-4ab2-9f6c" name="Vilith-zhar, the Sword of Souls" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5c51-52be-d060-6d0a" name="Vilith-zhar, the Sword of Souls" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="5c51-52be-d060-6d0a" name="Vilith-zhar, the Sword of Souls" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Fleshbane, Armourbane, Soul Blaze"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Fleshbane, Armourbane, Soul Blaze</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5797,34 +5797,34 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="275.0"/>
+        <cost name="pts" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2de7-e98a-13e5-bd47" name="The Visarch, Sword of Ynnead" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0ce6-46c3-7c4b-25d6" name="The Visarch" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+        <profile id="0ce6-46c3-7c4b-25d6" name="The Visarch" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character"/>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="7"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="7"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-            <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="4"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">7</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">7</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">4</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5902,16 +5902,16 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntries>
         <selectionEntry id="6413-97a2-2b28-f321" name="Asu-var, the Sword of Silent Screams" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="a44d-a122-0dd1-6299" name="Asu-var, the Sword of Silent Screams" book="Gathering Storm: Fracture of Biel-Tan" page="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="a44d-a122-0dd1-6299" name="Asu-var, the Sword of Silent Screams" book="Gathering Storm: Fracture of Biel-Tan" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Silence, Two-Handed"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Silence, Two-Handed</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5941,53 +5941,53 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e57-7e2d-b4e7-ec85" name="Yvraine, Emissary of Ynnead" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6738-ab09-bf73-0711" name="Yvraine" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+        <profile id="6738-ab09-bf73-0711" name="Yvraine" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="8"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="8"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-            <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="8"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="4"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="6+/4++"/>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">8</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">8</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">8</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">4</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">6+/4++</characteristic>
           </characteristics>
         </profile>
-        <profile id="e903-c7c9-36dc-0db8" name="Yvraine (Psyker)" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
+        <profile id="e903-c7c9-36dc-0db8" name="Yvraine (Psyker)" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Mastery Level" characteristicTypeId="ca56-02c3-af4b-ea2a" value="2"/>
-            <characteristic name="Disciplines" characteristicTypeId="ea53-f5c7-08e4-980c" value="Daemonology (Sanctic), Revenant"/>
+            <characteristic name="Mastery Level" typeId="ca56-02c3-af4b-ea2a">2</characteristic>
+            <characteristic name="Disciplines" typeId="ea53-f5c7-08e4-980c">Daemonology (Sanctic), Revenant</characteristic>
           </characteristics>
         </profile>
-        <profile id="7314-be71-4539-7b2b" name="Warlord Trait: Favoured of Ynnead" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+        <profile id="7314-be71-4539-7b2b" name="Warlord Trait: Favoured of Ynnead" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Your Warlord and their unit can make a Soulburst action when they are within 14&quot; of a unit that is destroyed, rather than 7&quot;."/>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your Warlord and their unit can make a Soulburst action when they are within 14&quot; of a unit that is destroyed, rather than 7&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6058,13 +6058,13 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
       <selectionEntries>
         <selectionEntry id="39bc-1287-8b86-aaa6" name="Runesuit" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="8a47-9ad7-d155-711d" name="Runesuit" book="Gathering Storm: Fracture of Biel-Tan" page="" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+            <profile id="8a47-9ad7-d155-711d" name="Runesuit" book="Gathering Storm: Fracture of Biel-Tan" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A runesuit confers a 4+ invulnerable save."/>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A runesuit confers a 4+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6079,21 +6079,21 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9bc2-73bf-0cdb-55c3" name="Kha-vir, the Sword of Sorrows" book="Gathering Storm: Fracture of Biel-Tan" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="d2e9-b1bf-1044-836a" name="Kha-vir, the Sword of Sorrows" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+            <profile id="d2e9-b1bf-1044-836a" name="Kha-vir, the Sword of Sorrows" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Instant Death"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Instant Death</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6115,14 +6115,14 @@ A model cannot Run if it fired a Heavy weapon during the same Shooting phase unl
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6275,615 +6275,615 @@ A unit can only make a Soulburst action once per turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="c7ca-fed2-900a-bb1e" name="Blade of Fate" book="Death Masque" page="33" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="c7ca-fed2-900a-bb1e" name="Blade of Fate" book="Death Masque" page="33" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Eldar Jetbike"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="6"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Eldar Jetbike</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="74f1-a578-d21e-9c31" name="Cegorach&apos;s Rose" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="74f1-a578-d21e-9c31" name="Cegorach&apos;s Rose" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Master-crafted, Shred, Kiss of Death"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Shred, Kiss of Death</characteristic>
       </characteristics>
     </profile>
-    <profile id="b580-184e-f46e-ca6b" name="Close combat weapon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="b580-184e-f46e-ca6b" name="Close combat weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="4a98-67c3-a71a-f50c" name="Crescendo" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4a98-67c3-a71a-f50c" name="Crescendo" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Bladestorm, Quickfire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Bladestorm, Quickfire</characteristic>
       </characteristics>
     </profile>
-    <profile id="3169-59b6-7f90-2373" name="Death Jester" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="3169-59b6-7f90-2373" name="Death Jester" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bf19-8316-ae08-356d" name="Dusk" book="Death Masque" page="30" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="bf19-8316-ae08-356d" name="Dusk" book="Death Masque" page="30" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="6"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ba95-6edb-4f83-04da" name="Eldrad Ulthran" book="Death Masque" page="29" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="ba95-6edb-4f83-04da" name="Eldrad Ulthran" book="Death Masque" page="29" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="5"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3ec6-44cc-2385-a632" name="Flip Belt" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="3ec6-44cc-2385-a632" name="Flip Belt" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model with a flip belt is not slowed by difficult terrain and does not suffer the penalty to its Initiative for charging through difficult terrain. In addition, a character with a flip belt always passes Look Out, Sir rolls on a 2+."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a flip belt is not slowed by difficult terrain and does not suffer the penalty to its Initiative for charging through difficult terrain. In addition, a character with a flip belt always passes Look Out, Sir rolls on a 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="db4a-d62e-85f0-5e3b" name="Fusion Pistol" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="db4a-d62e-85f0-5e3b" name="Fusion Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="6&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Melta"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Melta</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b2f-7df7-9427-f261" name="Hallucinogen Grenade Launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="7b2f-7df7-9427-f261" name="Hallucinogen Grenade Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Hallucinogenic"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Hallucinogenic</characteristic>
       </characteristics>
     </profile>
-    <profile id="24da-cba4-a1b1-3ab0" name="Harlequin&apos;s Caress" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="24da-cba4-a1b1-3ab0" name="Harlequin&apos;s Caress" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Caress of Death"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Caress of Death</characteristic>
       </characteristics>
     </profile>
-    <profile id="e8ff-9750-1d69-0adc" name="Harlequin&apos;s Embrace" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="e8ff-9750-1d69-0adc" name="Harlequin&apos;s Embrace" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Embrace of Death"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Embrace of Death</characteristic>
       </characteristics>
     </profile>
-    <profile id="c385-43ff-46b5-f092" name="Harlequin&apos;s Kiss" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="c385-43ff-46b5-f092" name="Harlequin&apos;s Kiss" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Kiss of Death"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Kiss of Death</characteristic>
       </characteristics>
     </profile>
-    <profile id="ec94-c52d-2813-e4d5" name="Haywire Cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="ec94-c52d-2813-e4d5" name="Haywire Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Blast, Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="4747-987b-9864-60a2" name="Haywire grenade (melee)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4747-987b-9864-60a2" name="Haywire grenade (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="4767-889e-fdc3-6a78" name="Haywire grenade (ranged)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4767-889e-fdc3-6a78" name="Haywire grenade (ranged)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Haywire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Haywire</characteristic>
       </characteristics>
     </profile>
-    <profile id="c68f-44f8-d5eb-96bc" name="Holo-fields" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="c68f-44f8-d5eb-96bc" name="Holo-fields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle with holo-fields has a 5+ invulnerable save unless it is Immobilised."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle with holo-fields has a 5+ invulnerable save unless it is Immobilised.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b962-0dd7-2d75-b645" name="Holo-suit" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="b962-0dd7-2d75-b645" name="Holo-suit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A holo-suit grants the wearer a 5+ invulnerable save."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A holo-suit grants the wearer a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cfe5-4bc4-dd3a-3716" name="Inriam&apos;s Spectre" book="Death Masque" page="32" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="cfe5-4bc4-dd3a-3716" name="Inriam&apos;s Spectre" book="Death Masque" page="32" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b530-b70b-5a52-15d8" name="Mirage Launchers" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="b530-b70b-5a52-15d8" name="Mirage Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, instead of using its Jink special rule, a unit entirely composed of models with mirage launchers can trigger them when they are selected as the target of a shooting attack. If the unit triggers its mirage launchers, all models in the unit gain a 4+ invulnerable save against shooting attacks until the start of their next Movement phase."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of using its Jink special rule, a unit entirely composed of models with mirage launchers can trigger them when they are selected as the target of a shooting attack. If the unit triggers its mirage launchers, all models in the unit gain a 4+ invulnerable save against shooting attacks until the start of their next Movement phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2b2c-4fcf-fc45-1703" name="Miststave" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="2b2c-4fcf-fc45-1703" name="Miststave" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Concussive, Fleshbane"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Fleshbane</characteristic>
       </characteristics>
     </profile>
-    <profile id="7758-71c5-afb9-65f6" name="Neuro Disruptor" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="7758-71c5-afb9-65f6" name="Neuro Disruptor" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Fleshbane"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Fleshbane</characteristic>
       </characteristics>
     </profile>
-    <profile id="93d8-4887-8d03-1eb3" name="Player" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="93d8-4887-8d03-1eb3" name="Player" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="6"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="7ca2-05db-0842-c3c8" name="Power Sword" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="7ca2-05db-0842-c3c8" name="Power Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="10c3-18b3-b670-2d3d" name="Prismatic Cannon (Dispersed)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="10c3-18b3-b670-2d3d" name="Prismatic Cannon (Dispersed)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="3"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Large Blast"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="1af9-0cc6-609c-5ab7" name="Prismatic Cannon (Focussed)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="1af9-0cc6-609c-5ab7" name="Prismatic Cannon (Focussed)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Blast"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1d1-190d-6dea-509f" name="Prismatic Cannon (Lance)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="b1d1-190d-6dea-509f" name="Prismatic Cannon (Lance)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Lance"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Lance</characteristic>
       </characteristics>
     </profile>
-    <profile id="9e69-d010-51da-b70a" name="Shadowseer" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="9e69-d010-51da-b70a" name="Shadowseer" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="6"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">6</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e0d8-f075-772f-edae" name="Shrieker Cannon (Shrieker)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="e0d8-f075-772f-edae" name="Shrieker Cannon (Shrieker)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Bio-explosive, Bladestorm, Pinning, Poisoned (2+)"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Bio-explosive, Bladestorm, Pinning, Poisoned (2+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="795f-a490-1d69-aaf6" name="Shrieker Cannon (Shuriken)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="795f-a490-1d69-aaf6" name="Shrieker Cannon (Shuriken)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3, Bladestorm"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3, Bladestorm</characteristic>
       </characteristics>
     </profile>
-    <profile id="0ec4-2e9b-54ba-3ef0" name="Shuriken Cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="0ec4-2e9b-54ba-3ef0" name="Shuriken Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3, Bladestorm"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3, Bladestorm</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ff6-24cd-db84-7720" name="Shuriken Pistol" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="1ff6-24cd-db84-7720" name="Shuriken Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Bladestorm"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Bladestorm</characteristic>
       </characteristics>
     </profile>
-    <profile id="4eec-598b-21d1-a5ba" name="Skyweaver" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="4eec-598b-21d1-a5ba" name="Skyweaver" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Eldar Jetbike"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="6"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Eldar Jetbike</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">6</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="56d7-20a1-845f-9a91" name="Skyweaver Jetbike" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="56d7-20a1-845f-9a91" name="Skyweaver Jetbike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model riding a Skyweaver jetbike has a 4+ Armour Save and a shuriken cannon. Their unit type also changes to Eldar Jetbike."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model riding a Skyweaver jetbike has a 4+ Armour Save and a shuriken cannon. Their unit type also changes to Eldar Jetbike.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8cf2-2831-8a82-b36f" name="Solitaire" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="8cf2-2831-8a82-b36f" name="Solitaire" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="9"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="9"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="10"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="6"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">9</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">9</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">10</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">6</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="093a-aa4b-db90-e4b6" name="Star Bolas" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="093a-aa4b-db90-e4b6" name="Star Bolas" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, One Use Only"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, One Use Only</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc16-7f82-6268-f642" name="Starmist Raiment" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="fc16-7f82-6268-f642" name="Starmist Raiment" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a model with the Starmist Raiment Runs in its Shooting phase, it has a 3+ invulnerable save until the start of its next Shooting phase."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model with the Starmist Raiment Runs in its Shooting phase, it has a 3+ invulnerable save until the start of its next Shooting phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="060e-f74d-227d-8d0c" name="Starweaver" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f">
+    <profile id="060e-f74d-227d-8d0c" name="Starweaver" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="10"/>
-        <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="10"/>
-        <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="10"/>
-        <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Skimmer, Fast, Open-topped, Transport)"/>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Skimmer, Fast, Open-topped, Transport)</characteristic>
       </characteristics>
     </profile>
-    <profile id="680d-c184-1428-9c2b" name="The Lambent Prince" book="Death Masque" page="31" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="680d-c184-1428-9c2b" name="The Lambent Prince" book="Death Masque" page="31" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="6"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">6</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6e16-9b07-2e37-52e2" name="The Laughing God&apos;s Eye" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="6e16-9b07-2e37-52e2" name="The Laughing God&apos;s Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All friendly units within 12&quot; of a model with the Laughing God&apos;s Eye have the Adamantium Will special rule."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly units within 12&quot; of a model with the Laughing God&apos;s Eye have the Adamantium Will special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4bd8-1cee-e73c-0ff1" name="The Mask of Secrets" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="4bd8-1cee-e73c-0ff1" name="The Mask of Secrets" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model with the Mask of Secrets has the Fearless special rule. In addition, enemy models within 12&quot; of the bearer suffer -2 to their Leadership."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with the Mask of Secrets has the Fearless special rule. In addition, enemy models within 12&quot; of the bearer suffer -2 to their Leadership.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ca75-55d9-99ec-2c1d" name="The Serpent&apos;s Breath" book="Death Masque" page="34" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f">
+    <profile id="ca75-55d9-99ec-2c1d" name="The Serpent&apos;s Breath" book="Death Masque" page="34" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="10"/>
-        <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="10"/>
-        <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="10"/>
-        <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Skimmer, Fast, Open-topped)"/>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Skimmer, Fast, Open-topped)</characteristic>
       </characteristics>
     </profile>
-    <profile id="0e77-dfed-fa16-b79f" name="The Storied Sword" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="0e77-dfed-fa16-b79f" name="The Storied Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Master-crafted"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted</characteristic>
       </characteristics>
     </profile>
-    <profile id="c6f9-9c5a-6efa-8ed0" name="Troupe Master" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="c6f9-9c5a-6efa-8ed0" name="Troupe Master" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="6"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="3"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="3"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="7"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">6</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">7</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="5ae3-be64-ce19-e242" name="Voidweaver" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f">
+    <profile id="5ae3-be64-ce19-e242" name="Voidweaver" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="10"/>
-        <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="10"/>
-        <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="10"/>
-        <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Skimmer, Fast, Open-topped)"/>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Skimmer, Fast, Open-topped)</characteristic>
       </characteristics>
     </profile>
-    <profile id="d618-9251-01e6-bce8" name="Zephyrglaive" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="d618-9251-01e6-bce8" name="Zephyrglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1/User"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2/3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1/User</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2/3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="76cb-e60a-5f7b-588b" name="Starweaver" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
+    <profile id="76cb-e60a-5f7b-588b" name="Starweaver" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="6 models"/>
-        <characteristic name="Fire Points" characteristicTypeId="fe20-e124-2c11-86ee" value="Open-topped"/>
-        <characteristic name="Access Points" characteristicTypeId="21e5-4518-a31c-7e56" value="Open-topped"/>
+        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">6 models</characteristic>
+        <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Open-topped</characteristic>
+        <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">Open-topped</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

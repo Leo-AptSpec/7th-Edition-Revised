@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2a6324ae-733e-a451-ead5-42d2997cf0ef" name="Legion of the Damned: Codex (2014)" revision="2006" battleScribeVersion="2.00" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2a6324ae-733e-a451-ead5-42d2997cf0ef" name="Legion of the Damned: Codex (2014)" revision="2007" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -191,7 +191,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c864732e-305b-243d-e68d-852c1875620e" name="Plasma Pistol" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -213,7 +213,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e43f460a-6cd7-d540-08d8-c35e3271420a" name="Combi Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -247,7 +247,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a7ec5d48-963a-69d6-6a48-1ea4d18a62b1" name="Combi Melta" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -281,7 +281,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="31e60d2e-5dc6-3b54-f308-da89de86cde9" name="Combi Plasma" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -315,7 +315,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6da6656d-cf2c-bc7b-f6db-a94680b16e73" name="Storm Bolter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -337,7 +337,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="5.0"/>
+                        <cost name="pts" typeId="points" value="5.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1fba5abe-ba84-d5d8-d5b3-0b1195657e8f" name="Combi Grav" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -377,7 +377,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
+                        <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e454ef2f-f858-630d-7174-18a34ab401cf" name="Grav Pistol" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -405,7 +405,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -438,7 +438,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="0.0"/>
+                            <cost name="pts" typeId="points" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="a3c38e2e-f140-31b2-38a9-e110f71340b1" name="Close Combat Weapon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -460,7 +460,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="0.0"/>
+                            <cost name="pts" typeId="points" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="6571f8d3-f2bd-4509-ae34-e8408b92bf25" name="Power Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -482,7 +482,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="fdffa1f6-49e1-37a2-b641-a5638f408684" name="Power Maul" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -504,7 +504,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="d56f72d6-0211-53da-de52-6f4058ed04e1" name="Power Axe" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -526,7 +526,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="8a76d987-0b79-9716-9407-ad1efc18f983" name="Power Fist" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -548,7 +548,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="25.0"/>
+                            <cost name="pts" typeId="points" value="25.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="c9c19236-464f-cf0a-a45a-88037c34fa25" name="Power Lance" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -570,7 +570,7 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="15.0"/>
+                            <cost name="pts" typeId="points" value="15.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -605,7 +605,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -661,7 +661,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="25.0"/>
+                    <cost name="pts" typeId="points" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -716,7 +716,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="40.0"/>
+                        <cost name="pts" typeId="points" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="964522d4-4a29-9b43-661f-bc4bbdb03933" name="Legionnaire w/ Meltagun" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -760,7 +760,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="35.0"/>
+                        <cost name="pts" typeId="points" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9e73f93b-94a4-aef6-4ea4-0e5432f5fd56" name="Legionnaire w/ Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -804,7 +804,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="30.0"/>
+                        <cost name="pts" typeId="points" value="30.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -861,7 +861,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="40.0"/>
+                        <cost name="pts" typeId="points" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ce082fd8-f793-aeee-26ec-0bbd507a26df" name="Legionnaire w/ Missile Launcher" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -905,7 +905,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="40.0"/>
+                        <cost name="pts" typeId="points" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c696b6e0-be22-bdf2-f5f3-99f969211f70" name="Legionnaire w/ Heavy Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -949,7 +949,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="35.0"/>
+                        <cost name="pts" typeId="points" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5cf336b2-bfd2-0e50-2fd9-7111fa8b4b83" name="Legionnaire w/ Multi-melta" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -993,7 +993,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="35.0"/>
+                        <cost name="pts" typeId="points" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2115b8f8-6bf8-b83f-00fe-590fc5c5d684" name="Legionnaire w/ Lascannon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1037,7 +1037,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="45.0"/>
+                        <cost name="pts" typeId="points" value="45.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c3f165fb-9877-fe09-0575-4f35ed82f32d" name="Legionnaire w/ Heavy Bolter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1081,7 +1081,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="35.0"/>
+                        <cost name="pts" typeId="points" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5285cc7b-2ae6-fefa-2241-3607e17b3ab4" name="Legionnaire w/ Flakk Missile Launcher" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1132,7 +1132,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="50.0"/>
+                        <cost name="pts" typeId="points" value="50.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1145,14 +1145,14 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e755c6d6-9092-9809-8043-000f9830ae25" name="Legion of the Damned Squad" book="Codex: Legion of the Damned" page="0" hidden="false" collective="false" categoryEntryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" type="unit">
@@ -1246,7 +1246,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c18b35c9-4bc2-3fc0-694c-844060d235d6" name="Plasma Pistol" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1268,7 +1268,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7ef380e7-5c95-a02c-6c8e-7e35761e6b9e" name="Combi Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1302,7 +1302,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4ff24957-4f30-e713-e196-0f9ca60d8a43" name="Combi Melta" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1336,7 +1336,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="86d3921f-a83d-7580-e53b-ca9c4d822eea" name="Combi Plasma" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1370,7 +1370,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="510c568b-36df-54ce-9273-35d7b6154655" name="Storm Bolter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1392,7 +1392,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="977563e7-8a8c-5396-9c0a-6f956364f319" name="Combi Grav" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1432,7 +1432,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="76540e34-18ee-72f6-1b91-3889191fcf08" name="Grav Pistol" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1460,7 +1460,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="15.0"/>
+                    <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1491,7 +1491,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="97cf0022-3372-56db-bf42-cf328adbf6f0" name="Close Combat Weapon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1511,7 +1511,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bb68f443-fc1d-6505-cf41-ef4a466cccde" name="Power Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1531,7 +1531,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7c288b6e-26da-f9f5-3532-8b140edf7b93" name="Power Maul" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1551,7 +1551,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d11faaa1-4475-f134-8163-e70768e09a14" name="Power Axe" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1571,7 +1571,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="306bec9a-fe7e-eedf-5ddb-fc458f068d62" name="Power Fist" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1591,7 +1591,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="25.0"/>
+                        <cost name="pts" typeId="points" value="25.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d6b9cf0e-0175-034d-351e-7c466f95744b" name="Power Lance" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -1611,7 +1611,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="15.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1646,7 +1646,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1702,7 +1702,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1757,7 +1757,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="40.0"/>
+                    <cost name="pts" typeId="points" value="40.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a4acc331-f37a-2f57-0314-2cf0eb4da43b" name="Legionnaire w/ Meltagun" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1801,7 +1801,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
+                    <cost name="pts" typeId="points" value="35.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d792528e-b090-832c-ce2a-9ef397fcb3b3" name="Legionnaire w/ Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1845,7 +1845,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="30.0"/>
+                    <cost name="pts" typeId="points" value="30.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1902,7 +1902,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="40.0"/>
+                    <cost name="pts" typeId="points" value="40.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9a3c7db3-14dd-56f6-4f99-831df78f28d7" name="Legionnaire w/ Missile Launcher" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1946,7 +1946,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="40.0"/>
+                    <cost name="pts" typeId="points" value="40.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d48ac3e8-837d-9d47-4bb2-6c960ca42b03" name="Legionnaire w/ Heavy Flamer" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1990,7 +1990,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
+                    <cost name="pts" typeId="points" value="35.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5c648116-7cdc-2948-4637-d5378a2690cb" name="Legionnaire w/ Multi-melta" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2034,7 +2034,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
+                    <cost name="pts" typeId="points" value="35.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4a4614cc-810a-d12e-9cf7-3a3d3b8d707c" name="Legionnaire w/ Lascannon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2078,7 +2078,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="45.0"/>
+                    <cost name="pts" typeId="points" value="45.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ea7cbbd0-84b0-a2a0-6056-8ce3f94cc483" name="Legionnaire w/ Heavy Bolter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2122,7 +2122,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
+                    <cost name="pts" typeId="points" value="35.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fcb25705-57ba-f5ba-3319-338473cf1cb2" name="Legionnaire w/ Flakk Missile Launcher" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2173,7 +2173,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="50.0"/>
+                    <cost name="pts" typeId="points" value="50.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2194,7 +2194,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8d73d9c-1f21-3b48-637a-122d7a7c6b29" name="Primary Detachment" page="0" hidden="false" collective="false" categoryEntryId="7fc5b655-812e-45ed-98ff-db8847d356da" type="upgrade">
@@ -2207,7 +2207,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2233,7 +2233,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="783d0a66-f9fc-b09e-d318-d2cb3cafe100" name="Bolter" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2256,7 +2256,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2424fc0-b821-f79b-f12c-7720bbac7eca" name="Flakk Missiles" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2279,7 +2279,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3cfd5bb-cb6e-ced5-35e7-1ba3ce26b363" name="Flamer" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2302,7 +2302,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d0a3f91-213f-1f43-a3d7-4aa85671e2b1" name="Heavy Bolter" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2325,7 +2325,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98304343-e426-96dc-04d7-fa03182ce661" name="Heavy Flamer" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2348,7 +2348,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f203e44-a050-6142-d541-49f745009497" name="Lascannon" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2371,7 +2371,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="082c62f1-215f-649c-d961-25e1f54ce604" name="Meltagun" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2394,7 +2394,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd5d08d1-1c79-4bb7-4eaf-5a4d1ef26d61" name="Missile Launcher" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2423,7 +2423,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a30fd29-f3f0-fde6-3448-d78ed2822877" name="Multi-melta" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2446,7 +2446,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="acb0c54f-fef8-0c77-d267-722ea237d331" name="Plasma Cannon" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2469,7 +2469,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c454873-7f88-06cb-ddca-c70c8c3aace9" name="Plasma Gun" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2492,7 +2492,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d83d8bb-e7e1-12aa-6024-c1f3adf67eb0" name="Power Armour, Frag &amp; Krak Grenades" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
@@ -2527,7 +2527,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bec738b0-2f57-a24c-5f01-8dc7a5c64427" name="The Animus Malorum" book="Codex: Legion of the Damned" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2556,7 +2556,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3aee269-2f69-f57e-eaea-6a91ac502357" name="Warlord" book="Warhammer 40k rulebook" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2605,7 +2605,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="17ac935c-fab8-a9e3-877d-0db3d2915201" name="2 - Aura of Fear" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2627,7 +2627,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="05b94caf-c189-1e2d-d1e5-f4303fdc7834" name="3 - Ethereal Bolts" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2649,7 +2649,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc44d8fa-ed5f-8c69-0043-cb90538a1399" name="4 - Spectral Bulwark" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2671,7 +2671,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b60c19e-8318-71f7-b6b0-1bb36eceafa0" name="5 - Never Too Late, Never Too Early" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2693,7 +2693,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5b055180-308f-56f2-5092-9fa6c9bcc699" name="6 - Retribution Made Manifest" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2715,7 +2715,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2725,7 +2725,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2835,154 +2835,154 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="b9acf151-1b3a-6d61-fc07-074c4ed705f2" name="Combi-Weapons" book="Codex: Space Marines" page="0" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="b9acf151-1b3a-6d61-fc07-074c4ed705f2" name="Combi-Weapons" book="Codex: Space Marines" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Bolter may be fired every turn, secondary weapon may be fired once. (Combi-plasma does have Rapid Fire). Cannot fire both in same turn."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Bolter may be fired every turn, secondary weapon may be fired once. (Combi-plasma does have Rapid Fire). Cannot fire both in same turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cbf7b3b2-ecd9-5725-971a-e3a6c2ea6fb7" name="Cypher" book="Dataslate: Cypher" page="0" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="cbf7b3b2-ecd9-5725-971a-e3a6c2ea6fb7" name="Cypher" book="Dataslate: Cypher" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="7"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="10"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="8"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">7</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">10</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">8</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1e199518-55d4-759b-e3ba-76b8d3358a56" name="Cypher&apos;s Bolt Pistol" book="Dataslate: Cypher" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="1e199518-55d4-759b-e3ba-76b8d3358a56" name="Cypher&apos;s Bolt Pistol" book="Dataslate: Cypher" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="16"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
       </characteristics>
     </profile>
-    <profile id="58766fc1-83be-a759-3143-196f5f58af6c" name="Cypher&apos;s Plasma Pistol" book="Dataslate: Cypher" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="58766fc1-83be-a759-3143-196f5f58af6c" name="Cypher&apos;s Plasma Pistol" book="Dataslate: Cypher" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
       </characteristics>
     </profile>
-    <profile id="a0d51d79-a231-4168-514d-ea8800b92953" name="Cypher&apos;s Sword" book="Dataslate: Cypher" page="0" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="a0d51d79-a231-4168-514d-ea8800b92953" name="Cypher&apos;s Sword" book="Dataslate: Cypher" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Grants Eternal Warrior &amp; Shrouded."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grants Eternal Warrior &amp; Shrouded.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b580d097-9c25-c169-5a76-81bda77fa788" name="Legionnaire" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="b580d097-9c25-c169-5a76-81bda77fa788" name="Legionnaire" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="4"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+/3++"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+/3++</characteristic>
       </characteristics>
     </profile>
-    <profile id="9a3b214e-03ca-884f-0502-96e470580136" name="Legionnaire Sergeant" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+    <profile id="9a3b214e-03ca-884f-0502-96e470580136" name="Legionnaire Sergeant" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-        <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="4"/>
-        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+/3++"/>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+/3++</characteristic>
       </characteristics>
     </profile>
-    <profile id="31e7d438-5ff1-3e01-fd50-02e061bd0710" name="Missile Launcher (Flakk)" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="31e7d438-5ff1-3e01-fd50-02e061bd0710" name="Missile Launcher (Flakk)" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Skyfire"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Skyfire</characteristic>
       </characteristics>
     </profile>
-    <profile id="5b99bf6a-b60b-4476-948a-f2c764c5b070" name="Missile Launcher (Frag)" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="5b99bf6a-b60b-4476-948a-f2c764c5b070" name="Missile Launcher (Frag)" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="6"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, 3&quot; Blast"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, 3&quot; Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="e174762b-9d4f-a42d-47fb-a3553cd7c4f3" name="Missile Launcher (Krak)" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="e174762b-9d4f-a42d-47fb-a3553cd7c4f3" name="Missile Launcher (Krak)" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="8"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="0758d64b-c98c-715e-4489-518c6b5ee139" name="Power Armour" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="0758d64b-c98c-715e-4489-518c6b5ee139" name="Power Armour" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="3+ Armour Sv"/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">3+ Armour Sv</characteristic>
       </characteristics>
     </profile>
-    <profile id="7192e8e2-859b-4986-3919-66ceb1e0269e" name="The Animus Malorum" book="Codex: Legion of the Damned" page="0" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="7192e8e2-859b-4986-3919-66ceb1e0269e" name="The Animus Malorum" book="Codex: Legion of the Damned" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The bearer and all Legionnaire models in his unit have the Feel No Pain special rule. Furthermore, whenever an enemy unit fails a Fear, Pinning or Morale check within 12&quot; of the bearer, one randomly determined model in that unit is immediately removed as a casualty with no saves of any kind allowed (though Look Out, Sir rolls can be taken as normal). For each model slain in this manner, the bearer&apos;s unit receives a +1 modifier to their Feel No Pain rolls (to a maximum of 2+) until the end of the player turn."/>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer and all Legionnaire models in his unit have the Feel No Pain special rule. Furthermore, whenever an enemy unit fails a Fear, Pinning or Morale check within 12&quot; of the bearer, one randomly determined model in that unit is immediately removed as a casualty with no saves of any kind allowed (though Look Out, Sir rolls can be taken as normal). For each model slain in this manner, the bearer&apos;s unit receives a +1 modifier to their Feel No Pain rolls (to a maximum of 2+) until the end of the player turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

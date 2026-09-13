@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="34df-c088-3dc3-fe36" name="Adeptus Custodes: Codex (2017)" book="" revision="2009" battleScribeVersion="2.00" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="34df-c088-3dc3-fe36" name="Adeptus Custodes: Codex (2017)" book="" revision="2010" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -216,22 +216,22 @@
       <selectionEntries>
         <selectionEntry id="eb5b-56dd-f6d2-0ccc" name="Custodian" hidden="false" collective="false" type="unit">
           <profiles>
-            <profile id="3c92-fecb-063f-8b66" name="Custodian" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+            <profile id="3c92-fecb-063f-8b66" name="Custodian" book="Burning of Prospero: Datasheet" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-                <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-                <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-                <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="5"/>
-                <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5"/>
-                <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-                <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="4"/>
-                <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
-                <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-                <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -245,16 +245,16 @@
           <selectionEntries>
             <selectionEntry id="6523-9e19-e7b1-bc5c" name="Power Knife" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="8cae-8569-23ec-04ba" name="Power Knife" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                <profile id="8cae-8569-23ec-04ba" name="Power Knife" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -269,18 +269,18 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3de0-2887-d103-8c8a" name="Storm Shield" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="5215-abf9-6a93-cd29" name="Storm Shield" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+                <profile id="5215-abf9-6a93-cd29" name="Storm Shield" book="Burning of Prospero: Datasheet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A storm shield confers a 3+ invulnerable save. In addition, a model equipped with a storm shield can never claim the +1 Attack for being armed with two Melee weapons in an assault."/>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A storm shield confers a 3+ invulnerable save. In addition, a model equipped with a storm shield can never claim the +1 Attack for being armed with two Melee weapons in an assault.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -302,7 +302,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -319,16 +319,16 @@
               <selectionEntries>
                 <selectionEntry id="ce64-2c86-15d7-5261" name="Guardian Spear" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="ea94-8e8a-1ab7-0597" name="Guardian Spear (Melee)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="ea94-8e8a-1ab7-0597" name="Guardian Spear (Melee)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Block, Two-Handed"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Block, Two-Handed</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -368,18 +368,18 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="115d-db95-983c-8d2c" name="Custodes Vexilla" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="7154-b35e-0733-555c" name="Custodes Vexilla" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+                    <profile id="7154-b35e-0733-555c" name="Custodes Vexilla" book="Burning of Prospero: Datasheet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly units from the Armies of the Imperium within 12&quot; of the bearer have the Fearless special rule. In addition, all friendly models from the Armies of the Imperium in the same unit as the bearer have +1 Attack whilst the bearer is alive."/>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units from the Armies of the Imperium within 12&quot; of the bearer have the Fearless special rule. In addition, all friendly models from the Armies of the Imperium in the same unit as the bearer have +1 Attack whilst the bearer is alive.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -393,33 +393,33 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="30.0"/>
+                    <cost name="pts" typeId="points" value="30.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6cbe-6336-85c0-525b" name="Sentinel Blade" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="4e36-538b-a577-a600" name="Sentinel Blade (Melee)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="4e36-538b-a577-a600" name="Sentinel Blade (Melee)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="33a8-0d0b-4d6f-fca4" name="Sentinel Blade (Ranged)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="33a8-0d0b-4d6f-fca4" name="Sentinel Blade (Ranged)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2, Hail of Fire, Bolt Caster"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Hail of Fire, Bolt Caster</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -446,7 +446,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -456,27 +456,27 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5866-3b64-65ac-df97" name="Shield-Captain" hidden="false" collective="false" type="unit">
           <profiles>
-            <profile id="d3b5-1841-629f-b529" name="Shield Captain" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+            <profile id="d3b5-1841-629f-b529" name="Shield Captain" book="Burning of Prospero: Datasheet" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-                <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="6"/>
-                <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-                <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="5"/>
-                <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5"/>
-                <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-                <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="5"/>
-                <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="4"/>
-                <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-                <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">6</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">5</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">5</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">4</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -490,16 +490,16 @@
           <selectionEntries>
             <selectionEntry id="bec0-8d79-6712-dee0" name="Power Knife" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="0c93-eb2d-c1c8-2afa" name="Power Knife" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                <profile id="0c93-eb2d-c1c8-2afa" name="Power Knife" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -514,18 +514,18 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4ea8-3f79-442f-fd81" name="Storm Shield" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="9381-426d-b23e-a529" name="Storm Shield" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+                <profile id="9381-426d-b23e-a529" name="Storm Shield" book="Burning of Prospero: Datasheet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A storm shield confers a 3+ invulnerable save. In addition, a model equipped with a storm shield can never claim the +1 Attack for being armed with two Melee weapons in an assault."/>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A storm shield confers a 3+ invulnerable save. In addition, a model equipped with a storm shield can never claim the +1 Attack for being armed with two Melee weapons in an assault.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -547,7 +547,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -564,16 +564,16 @@
               <selectionEntries>
                 <selectionEntry id="efb1-7cfa-cb03-08ba" name="Guardian Spear" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="6624-916a-fd0b-e406" name="Guardian Spear (melee)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="6624-916a-fd0b-e406" name="Guardian Spear (melee)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Block, Two-Handed"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Block, Two-Handed</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -613,18 +613,18 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="acf1-46de-122c-5594" name="Custodes Vexilla" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="0ef7-1e68-841a-63e3" name="Custodes Vexilla" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+                    <profile id="0ef7-1e68-841a-63e3" name="Custodes Vexilla" book="Burning of Prospero: Datasheet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly units from the Armies of the Imperium within 12&quot; of the bearer have the Fearless special rule. In addition, all friendly models from the Armies of the Imperium in the same unit as the bearer have +1 Attack whilst the bearer is alive."/>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units from the Armies of the Imperium within 12&quot; of the bearer have the Fearless special rule. In addition, all friendly models from the Armies of the Imperium in the same unit as the bearer have +1 Attack whilst the bearer is alive.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -638,33 +638,33 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="30.0"/>
+                    <cost name="pts" typeId="points" value="30.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="00b6-4540-1e66-5a2b" name="Sentinel Blade" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="3d3f-64ed-0403-5070" name="Sentinel Blade (Melee)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="3d3f-64ed-0403-5070" name="Sentinel Blade (Melee)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="035f-8521-fdb0-854d" name="Sentinel Blade (Ranged)" book="Burning of Prospero: Datasheet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                    <profile id="035f-8521-fdb0-854d" name="Sentinel Blade (Ranged)" book="Burning of Prospero: Datasheet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-                        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-                        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-                        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2, Hail of Fire, Bolt Caster"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Hail of Fire, Bolt Caster</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -691,7 +691,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -701,7 +701,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="60.0"/>
+            <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -718,36 +718,36 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1aa5-3857-2b14-0929" name="Venerable Contemptor Dreadnought" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e1b0-8b0d-840b-1820" name="Contemptor Dreadnought" book="Supplement: Angels of Death" hidden="false" profileTypeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" profileTypeName="Walker">
+        <profile id="e1b0-8b0d-840b-1820" name="Contemptor Dreadnought" book="Supplement: Angels of Death" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="7"/>
-            <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="13"/>
-            <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="12"/>
-            <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="10"/>
-            <characteristic name="I" characteristicTypeId="a558b3ef-04d0-440e-a312-bac3255bf592" value="4"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="4"/>
-            <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="3"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Walker)"/>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">7</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">13</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">4</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker)</characteristic>
           </characteristics>
         </profile>
-        <profile id="e6ba-6a42-329f-1a27" name="Atomantic Shielding" book="Supplement: Angels of Death" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+        <profile id="e6ba-6a42-329f-1a27" name="Atomantic Shielding" book="Supplement: Angels of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A Contemptor Dreadnought has a 5+ invulnerable save against all shooting attacks, and a 6+ invulnerable save against all close combat attacks. In addition, if a Contemptor Dreadnought suffers an Explodes! result on the Vehicle Damage table, add 1&quot; to the radius of the resulting explosion."/>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Contemptor Dreadnought has a 5+ invulnerable save against all shooting attacks, and a 6+ invulnerable save against all close combat attacks. In addition, if a Contemptor Dreadnought suffers an Explodes! result on the Vehicle Damage table, add 1&quot; to the radius of the resulting explosion.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -802,16 +802,16 @@
           <selectionEntries>
             <selectionEntry id="cb7e-eb79-f96d-a0be" name="Kheres Pattern Assault Cannon" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="e55f-51d8-d674-8e39" name="Kheres Pattern Assault Cannon" book="Supplement: Angels of Death" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                <profile id="e55f-51d8-d674-8e39" name="Kheres Pattern Assault Cannon" book="Supplement: Angels of Death" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6, Rending"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Rending</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -823,7 +823,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7097-e9d7-0000-f829" name="Multi-Melta" hidden="false" collective="false" type="upgrade">
@@ -843,7 +843,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -862,16 +862,16 @@
           <selectionEntries>
             <selectionEntry id="2015-1c78-fb4d-f205" name="Power Fist w/ Combi-Bolter" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="4efa-f4a6-38aa-6102" name="Combi-Bolter" book="Supplement: Angels of Death" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                <profile id="4efa-f4a6-38aa-6102" name="Combi-Bolter" book="Supplement: Angels of Death" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
-                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Twin-linked"/>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -902,7 +902,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -912,34 +912,34 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c436-bb9c-81f4-3529" name="Venerable Land Raider" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6d25-136d-cf53-3ecf" name="Land Raider" book="Codex: Space Marines" hidden="false" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" profileTypeName="Vehicle">
+        <profile id="6d25-136d-cf53-3ecf" name="Land Raider" book="Codex: Space Marines" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
-            <characteristic name="Front" characteristicTypeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" value="14"/>
-            <characteristic name="Side" characteristicTypeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" value="14"/>
-            <characteristic name="Rear" characteristicTypeId="0a9f33cb-0412-420a-89d2-20707c360bd2" value="14"/>
-            <characteristic name="HP" characteristicTypeId="ae95a1af-719f-4365-b951-33cd3ca9148a" value="4"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Vehicle (Tank, Transport)"/>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">5</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">14</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">14</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">14</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank, Transport)</characteristic>
           </characteristics>
         </profile>
-        <profile id="31fd-47bf-e3b5-f8f2" name="Land Raider (Transport)" book="Codex: Space Marines" hidden="false" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
+        <profile id="31fd-47bf-e3b5-f8f2" name="Land Raider (Transport)" book="Codex: Space Marines" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="10."/>
-            <characteristic name="Fire Points" characteristicTypeId="fe20-e124-2c11-86ee" value="None."/>
-            <characteristic name="Access Points" characteristicTypeId="21e5-4518-a31c-7e56" value="3. One on each side and one on the front."/>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10.</characteristic>
+            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">None.</characteristic>
+            <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">3. One on each side and one on the front.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1026,7 +1026,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6267-e693-6992-6a0a" name="Twin-Linked Lascannons" hidden="false" collective="false" type="upgrade">
@@ -1055,7 +1055,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1086,7 +1086,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="590d-a039-fb22-c4e3" name="Extra Armour" hidden="false" collective="false" type="upgrade">
@@ -1108,7 +1108,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b560-5ec8-d4cc-f920" name="Hunter-Killer Missile" hidden="false" collective="false" type="upgrade">
@@ -1123,7 +1123,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1133,7 +1133,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="275.0"/>
+        <cost name="pts" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

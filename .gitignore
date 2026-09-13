@@ -8,3 +8,6 @@
 # Fork additions: line-ending policy and documentation
 !.gitattributes
 !*.md
+# Fork additions: data-maintenance scripts
+!tools/
+!tools/*.ps1

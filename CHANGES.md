@@ -9,6 +9,75 @@ Rebuild upstream's view of any file with
 
 ---
 
+## Whole repo — BattleScribe 2.00 → 2.03 format conversion
+
+Files: **all 44 `.cat` files + `Warhammer40K.gst`** · every file's `revision`
+bumped · `gameSystemRevision` re-pointed to the new `.gst` revision (2043) ·
+`battleScribeVersion` 2.00 → 2.03 on the 44 files that declared 2.00
+
+### Why
+
+New Recruit — which is what this fork is actually used in — only parses the
+**modern (2.03)** form of several constructs. Every file except
+`Space Marines - Codex (2015).cat` was still in the **legacy (2.00)** form,
+so New Recruit silently failed to read them. Verified live in New Recruit
+before the conversion, on a stock Orks list:
+
+- **Unit stats garbled** — a Big Mek displayed `6+` in WS, BS, S, T, W, I,
+  A, Ld *and* Save (every column showing the last characteristic's value).
+- **Weapon stats garbled** the same way (this is the bug that started the
+  investigation, via the Terminus Ultra's lascannons).
+- **All points missing** — the Big Mek, every wargear option and the roster
+  total all showed no cost at all, i.e. the entire army costed 0.
+- **Profile group headers blank** instead of "Weapon" / "Unit" / etc.
+
+In other words every faction except Space Marines was effectively unusable
+in New Recruit. (BattleScribe itself reads both forms, which is why the
+archived upstream project never hit this.)
+
+### What changed
+
+Three mechanical, purely-syntactic rewrites — no rules, stats, points or
+structure were altered:
+
+| Construct | Legacy (2.00) | Modern (2.03) | Count |
+|---|---|---|---|
+| characteristic | `<characteristic name="Range" characteristicTypeId="T" value="48&quot;"/>` | `<characteristic name="Range" typeId="T">48"</characteristic>` | 43,613 |
+| cost | `costTypeId="points"` | `typeId="points"` | 22,120 |
+| profile | `profileTypeId="T"` (+`profileTypeName`) | `typeId="T" typeName="Weapon"` | 8,976 |
+
+`typeName` was filled in from the `profileType` definitions; all 8,976
+legacy profiles referenced a defined profile type, so none were guessed.
+Attribute values were already XML-escaped and escaped text is equally valid
+as element content, so values carried over verbatim.
+
+**Deliberately left alone:** `categoryEntryId` (22,810 occurrences). New
+Recruit reads it correctly — verified that force-org slots populate and
+units land in the right slot in a legacy catalogue — so it was not worth
+the risk of a structural change.
+
+### Verification
+
+- All 45 files re-parse as well-formed XML.
+- Zero legacy attributes remain (`characteristicTypeId`, `costTypeId`,
+  `profileTypeId`, `profileTypeName`, `battleScribeVersion="2.00"` all 0).
+- All 9,623 profiles now carry both `typeId` and `typeName`.
+- Characteristic element count unchanged (46,392 = 43,613 converted + 2,779
+  already modern) — nothing dropped or duplicated.
+- `git diff` is exactly symmetric: 74,755 insertions / 74,755 deletions,
+  i.e. every touched line is a 1:1 rewrite, no lines added or removed.
+- Semantic read-back through a real XML parser: the shared BRB Lascannon
+  profile returns Range `48"`, Strength `9`, AP `2`, Type `Heavy 1`.
+- Re-checked in New Recruit after the change (see session notes).
+
+The script that performed it is kept at
+`tools/convert-legacy-to-2.03.ps1` so it can be re-run if legacy-format
+data is ever pulled in from upstream again. Note it also bumps revisions
+each run, so re-running it on already-converted data is a no-op conversion
+but still bumps revisions.
+
+---
+
 ## Space Marines — Codex (2015)
 
 File: `Space Marines - Codex (2015).cat` · catalogue revision 2053 → 2054
