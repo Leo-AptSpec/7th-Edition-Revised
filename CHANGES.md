@@ -11,25 +11,30 @@ Rebuild upstream's view of any file with
 
 ## Space Marines — Codex (2015)
 
-File: `Space Marines - Codex (2015).cat` · catalogue revision 2051 → 2052
+File: `Space Marines - Codex (2015).cat` · catalogue revision 2052 → 2053
 
-### Changed: Terminus Ultra weapon list now shows as plain quantities
+### Fixed: Terminus Ultra weapon stats were garbled by the previous change
 
-Leo asked for the weapon list to read as "2 Lascannons and 3 Twin-linked
-Lascannons, with the Twin-linked keyword attached" instead of the bundled,
-custom-named entries from Session 3 (`Two Sponson-mounted Twin-linked
-Lascannons`, `Two Sponson-mounted Lascannons`, `Hull-mounted Twin-linked
-Lascannon` — one selection each, standing in for 2, 2, and 1 weapon
-respectively via naming only).
+The revision-2052 change (5 separate, unrenamed `entryLink`s so New Recruit
+would auto-group them) broke the display instead: New Recruit showed a
+single "Lascannon (x3)" row with every column — Range, Strength, AP, Type —
+reading "Heavy 1". New Recruit apparently can't cleanly group multiple
+anonymous duplicate `entryLink`s that only carry an `infoLink` to a shared
+profile (no local profile of their own) within one unit; it mis-renders the
+merged row instead of resolving each instance's characteristics correctly.
 
-**Change:** replaced those 3 renamed/bundled `entryLink`s with 5 plain,
-unrenamed ones — three targeting the shared `Twin-Linked Lascannon` entry
-(`c092-b766-018e-4523`) and two targeting the shared `Lascannon` entry
-(`253c-b2c6-1345-e619`) — each a separate min1/max1 selection, still
-zero-costed (price baked into the 300pt base). No change to points, stats,
-or anything else. Sponson vs. hull-mounted flavor text is gone from the
-weapon names; the unit still has the same 5 lascannons total (2 plain, 3
-twin-linked). Revision 2051 → 2052.
+**Fix:** reverted to the same *bundled, named single-entry* pattern the
+plain `Land Raider` already uses successfully for its own sponson lascannons
+(`Two Twin-Linked Lascannons`, one `entryLink`, min1/max1) — proven to
+render correctly since it's long-standing, tested data. Terminus Ultra now
+has exactly 2 weapon `entryLink`s: one to the shared `Twin-Linked Lascannon`
+entry (`c092-b766-018e-4523`) renamed "Three Twin-Linked Lascannons", one to
+the shared `Lascannon` entry (`253c-b2c6-1345-e619`) renamed "Two
+Lascannons" — both zero-costed (300pt base still covers it). Each resolves
+to the BRB `Lascannon` profile (`f14a-07e5-5465-69cf` in `Warhammer40K.gst`:
+Range 48", Strength 9, AP 2, Type Heavy 1), with the twin-linked entry's own
+`infoLink` still appending ", Twin-Linked" to Type and linking the
+Twin-linked rule, same as it always did. Revision 2052 → 2053.
 
 ### Fixed: Land Raider Terminus Ultra wasn't actually selectable anywhere
 

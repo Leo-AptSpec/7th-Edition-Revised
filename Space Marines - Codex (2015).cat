@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2052" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2053" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7ab0-ceb9-pubN65665" name="Supplement: Angels of Death"/>
     <publication id="7ab0-ceb9-pubN65751" name="Codex: Space Marines"/>
@@ -9442,46 +9442,21 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="7ffa-1c2e-8f4d-b001" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
+            <modifier type="set" field="name" value="Three Twin-Linked Lascannons"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b002" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b003" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7ffa-1c2e-8f4d-b004" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b005" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b006" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7ffa-1c2e-8f4d-b007" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b008" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b009" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7ffa-1c2e-8f4d-b00a" name="" hidden="false" import="true" targetId="253c-b2c6-1345-e619" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
+            <modifier type="set" field="name" value="Two Lascannons"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7ffa-1c2e-8f4d-b00d" name="" hidden="false" import="true" targetId="253c-b2c6-1345-e619" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
