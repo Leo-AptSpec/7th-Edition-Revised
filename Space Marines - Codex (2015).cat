@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2050" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2051" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7ab0-ceb9-pubN65665" name="Supplement: Angels of Death"/>
     <publication id="7ab0-ceb9-pubN65751" name="Codex: Space Marines"/>
@@ -2638,6 +2638,11 @@
     <entryLink id="b586-d5d9-053f-00bb" name="" hidden="false" collective="false" import="true" targetId="d769-1321-8c9a-46c4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b586-d5d9-053f-00bb-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7ffa-1c2e-8f4d-a012" name="" hidden="false" collective="false" import="true" targetId="7ffa-1c2e-8f4d-a001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7ffa-1c2e-8f4d-a012-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

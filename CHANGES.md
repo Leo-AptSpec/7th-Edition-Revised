@@ -11,6 +11,43 @@ Rebuild upstream's view of any file with
 
 ## Space Marines — Codex (2015)
 
+File: `Space Marines - Codex (2015).cat` · catalogue revision 2050 → 2051
+
+### Fixed: Land Raider Terminus Ultra wasn't actually selectable anywhere
+
+Leo reported that after updating, the Terminus Ultra (added last session,
+`74b5548`) didn't show up as a Lord of War choice in an Ultramarines Combined
+Arms Detachment — or in any detachment at all.
+
+**Root cause:** this catalogue doesn't make a unit choosable in a generic
+Combined Arms/Allied Detachment just by giving its master `selectionEntry`
+its own `<categoryLinks>`. Every other unit in the file (Land Raider
+Crusader, Land Raider Redeemer, the `(FW) Mastodon Heavy Assault Transport`,
+etc.) is *also* wired into the catalogue's root-level `<entryLinks>` list
+(a direct child of `<catalogue>`, not nested in any `forceEntry`) with its
+own `categoryLink` — that root list is what actually populates the "add
+unit" picker for the base Force Org categories. Terminus Ultra had a
+`categoryLink` on its own `selectionEntry` (`7ffa-1c2e-8f4d-a004`, targeting
+the shared Lords of War category) but no entry in that root list at all, so
+nothing ever offered it as a pickable option — it was invisible from every
+Chapter's Combined Arms Detachment, not just Ultramarines.
+
+Confirmed this by checking Mastodon's own wiring: it has the *identical*
+self-declared `categoryLink` pattern Terminus Ultra used, **plus** a
+one-line `entryLink` (`b586-d5d9-053f-00bb`) in the root list with its own
+`categoryLink` to Lords of War. Session 2's Terminus Ultra writeup only
+verified the self-declared-`categoryLink` half of Mastodon's pattern and
+missed the root `entryLink` half.
+
+**Fix:** added `entryLink id="7ffa-1c2e-8f4d-a012"` (`targetId` = Terminus
+Ultra's `7ffa-1c2e-8f4d-a001`) to the catalogue's root `<entryLinks>` list,
+directly after Mastodon's own entry, with a `categoryLink` to the shared
+Lords of War category (`c888f08a-6cea-4a01-8126-d374a9231554`) — an exact
+mirror of Mastodon's entry, id-prefixed to match the rest of the Terminus
+Ultra family. No other change to the unit itself.
+
+---
+
 File: `Space Marines - Codex (2015).cat` · catalogue revision 2049 → 2050 · game
 system revision reference bumped 2041 → 2042 (see game system rename, below)
 
