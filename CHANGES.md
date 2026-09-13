@@ -9,6 +9,75 @@ Rebuild upstream's view of any file with
 
 ---
 
+## Space Marines — Codex (2015)
+
+File: `Space Marines - Codex (2015).cat` · catalogue revision 2049 → 2050 · game
+system revision reference bumped 2041 → 2042 (see game system rename, below)
+
+### Added: Land Raider Terminus Ultra (Lord of War) — *custom addition, not upstream data*
+
+Not an errata fix — this is new content Leo asked for, reconstructed from a
+photo of a (non-BSData) Terminus Ultra datasheet, cross-checked against this
+catalogue's own Land Raider/Predator/Razorback Lascannon profiles for the
+weapon stats. Recorded here so it's clear this unit's stats come from a
+different provenance than the rest of the file and aren't a book-verified
+fix like everything else in this changelog.
+
+**Source:** user-supplied photo of a Terminus Ultra card (partially cropped —
+Hull Points and points cost were not visible in the photo and were supplied
+by Leo directly rather than read off the card).
+
+**What it is:** `7ffa-1c2e-8f4d-a001`, inserted as a sibling of Land Raider /
+Land Raider Crusader / Land Raider Redeemer. BS4, Front/Side/Rear 14/14/14,
+HP4, `Vehicle (Tank)` (no Transport — Leo confirmed no transport capacity),
+300 points. Special rules: Power of the Machine Spirit (shared BRB rule,
+same infoLink the other Land Raiders use) plus a unique "Power Overload"
+rule (verbatim from the card: 4+ unmodified to-hit rolls of 1 in a single
+Shooting phase before twin-linked re-rolls inflicts a penetrating hit on
+itself after shooting resolves).
+
+**Weapons** (all fixed loadout, no choices — three entryLinks into the
+catalogue's existing shared weapon entries, renamed and zero-costed since
+baked into the 300pt price, mirroring how the regular Land Raider already
+reuses `c092-b766-018e-4523` for its own sponsons):
+- Two sponson-mounted Twin-Linked Lascannons (`c092-b766-018e-4523`)
+- Two sponson-mounted (single) Lascannons (`253c-b2c6-1345-e619`)
+- One hull-mounted Twin-Linked Lascannon (`c092-b766-018e-4523` again)
+- Searchlight and Smoke Launchers (`eb53-cd56-7d70-e009`, the same bundled
+  item every other Land Raider variant uses)
+- Optional Hunter-killer Missile, +10pts (own inline copy — matches the
+  existing `fbb8-7479-39a7-6674` HK Missile profile: Range Infinite, S8,
+  AP3, Heavy 1, One Use — priced at 10pts on the card, same as this entry)
+
+**Force Org:** single `categoryLink` to the shared "Lords of War" category
+(`c888f08a-6cea-4a01-8126-d374a9231554`, defined in `Warhammer40K.gst`) —
+same one-link pattern the "(FW) Mastodon Heavy Assault Transport" entry
+already uses. No Chapter/Faction-specific gating, so it's available to any
+Space Marines Combined Arms Detachment from the start, per Leo's request.
+Deliberately does **not** carry the `Super-heavy Vehicle` unit type or any
+of its universal rules (ignoring Crew Shaken/Stunned, etc.) — Leo was
+explicit this unit is a Lord of War in Force Org slot only, and should
+otherwise play as an ordinary Tank.
+
+**Open/unconfirmed:** the 300pt cost and HP4 came from Leo directly, not
+from a fully-legible source card — worth double-checking against the
+original Forge World/Index Astartes publication if that ever surfaces.
+
+## Game system rename — `Warhammer40K.gst`
+
+Renamed the declared game system name from "Warhammer 40,000 7th Edition"
+to "Warhammer 40,000 7th Edition Revised" (revision 2041 → 2042), so tools
+that display a data source by its declared name (New Recruit, BattleScribe)
+show this fork as visibly distinct from the unmodified upstream BSData
+files, rather than appearing identical. Catalogue files need their
+`gameSystemRevision` attribute bumped to 2042 to match — done so far only
+for `Space Marines - Codex (2015).cat`; every other `.cat` file in this repo
+still references the old revision number and should be bumped the same way
+before this is fully consistent (cosmetic staleness only, not a functional
+break).
+
+---
+
 ## Chaos Space Marines — Codex (2012)
 
 File: `Chaos Space Marines - Codex.cat` · catalogue revision 2026 → 2028

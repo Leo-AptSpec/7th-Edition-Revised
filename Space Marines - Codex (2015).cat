@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2049" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2050" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7ab0-ceb9-pubN65665" name="Supplement: Angels of Death"/>
     <publication id="7ab0-ceb9-pubN65751" name="Codex: Space Marines"/>
@@ -9386,6 +9386,87 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ffa-1c2e-8f4d-a001" name="(FW) Land Raider Terminus Ultra" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7ffa-1c2e-8f4d-a002" name="Land Raider Terminus Ultra" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">14</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">14</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">14</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7ffa-1c2e-8f4d-a003" name="Power Overload" hidden="false">
+          <description>If you roll four or more 1s to hit with the Terminus Ultra (before re-rolls for its twin-linked weapons) in a single Shooting phase, the tank has suffered a potentially catastrophic power surge. The Terminus Ultra suffers a single penetrating hit after its shooting has been resolved.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7ffa-1c2e-8f4d-a004b" name="" hidden="false" targetId="528d-4089-aaeb-bc3c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7ffa-1c2e-8f4d-a004" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7ffa-1c2e-8f4d-a00f" name="Hunter-killer Missile" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a010" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ffa-1c2e-8f4d-a011" name="Hunter-killer Missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, One Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7ffa-1c2e-8f4d-a005" name="" hidden="false" import="true" targetId="eb53-cd56-7d70-e009" type="selectionEntry"/>
+        <entryLink id="7ffa-1c2e-8f4d-a006" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+            <modifier type="set" field="name" value="Two Sponson-mounted Twin-linked Lascannons"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a007" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a008" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7ffa-1c2e-8f4d-a009" name="" hidden="false" import="true" targetId="253c-b2c6-1345-e619" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+            <modifier type="set" field="name" value="Two Sponson-mounted Lascannons"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a00a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a00b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7ffa-1c2e-8f4d-a00c" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+            <modifier type="set" field="name" value="Hull-mounted Twin-linked Lascannon"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a00d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-a00e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1654-6ea0-709b-f614" name="Land Raider Redeemer" hidden="false" collective="false" import="true" type="unit">
