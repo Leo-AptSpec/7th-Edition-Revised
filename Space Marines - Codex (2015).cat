@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2053" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" name="Space Marines: Codex (2015)" revision="2054" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7ab0-ceb9-pubN65665" name="Supplement: Angels of Death"/>
     <publication id="7ab0-ceb9-pubN65751" name="Codex: Space Marines"/>
@@ -9436,29 +9436,50 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7ffa-1c2e-8f4d-c001" name="Lascannon" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-c002" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-c003" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ffa-1c2e-8f4d-c004" name="Lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7ffa-1c2e-8f4d-c010" name="Twin-Linked Lascannon" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-c011" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-c012" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ffa-1c2e-8f4d-c013" name="Twin-Linked Lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Twin-Linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7ffa-1c2e-8f4d-c014" name="" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="7ffa-1c2e-8f4d-a005" name="" hidden="false" import="true" targetId="eb53-cd56-7d70-e009" type="selectionEntry"/>
-        <entryLink id="7ffa-1c2e-8f4d-b001" name="" hidden="false" import="true" targetId="c092-b766-018e-4523" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-            <modifier type="set" field="name" value="Three Twin-Linked Lascannons"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b002" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b003" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7ffa-1c2e-8f4d-b00a" name="" hidden="false" import="true" targetId="253c-b2c6-1345-e619" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-            <modifier type="set" field="name" value="Two Lascannons"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ffa-1c2e-8f4d-b00c" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
