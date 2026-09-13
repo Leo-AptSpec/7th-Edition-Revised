@@ -11,30 +11,63 @@ Rebuild upstream's view of any file with
 
 ## Space Marines — Codex (2015)
 
-File: `Space Marines - Codex (2015).cat` · catalogue revision 2052 → 2053
+File: `Space Marines - Codex (2015).cat` · catalogue revision 2053 → 2054
 
-### Fixed: Terminus Ultra weapon stats were garbled by the previous change
+### Fixed: Terminus Ultra weapon stats — root cause was a legacy characteristic format
 
-The revision-2052 change (5 separate, unrenamed `entryLink`s so New Recruit
-would auto-group them) broke the display instead: New Recruit showed a
-single "Lascannon (x3)" row with every column — Range, Strength, AP, Type —
-reading "Heavy 1". New Recruit apparently can't cleanly group multiple
-anonymous duplicate `entryLink`s that only carry an `infoLink` to a shared
-profile (no local profile of their own) within one unit; it mis-renders the
-merged row instead of resolving each instance's characteristics correctly.
+**Root cause (verified live in New Recruit, not theorised).** This data set
+stores profile characteristics in two different formats:
 
-**Fix:** reverted to the same *bundled, named single-entry* pattern the
-plain `Land Raider` already uses successfully for its own sponson lascannons
-(`Two Twin-Linked Lascannons`, one `entryLink`, min1/max1) — proven to
-render correctly since it's long-standing, tested data. Terminus Ultra now
-has exactly 2 weapon `entryLink`s: one to the shared `Twin-Linked Lascannon`
-entry (`c092-b766-018e-4523`) renamed "Three Twin-Linked Lascannons", one to
-the shared `Lascannon` entry (`253c-b2c6-1345-e619`) renamed "Two
-Lascannons" — both zero-costed (300pt base still covers it). Each resolves
-to the BRB `Lascannon` profile (`f14a-07e5-5465-69cf` in `Warhammer40K.gst`:
-Range 48", Strength 9, AP 2, Type Heavy 1), with the twin-linked entry's own
-`infoLink` still appending ", Twin-Linked" to Type and linking the
-Twin-linked rule, same as it always did. Revision 2052 → 2053.
+- **Legacy (BattleScribe 2.00):** `<characteristic name="Range"
+  characteristicTypeId="…" value="48&quot;"/>` — value in an *attribute*.
+- **Modern (BattleScribe 2.03):** `<characteristic name="Range"
+  typeId="…">48"</characteristic>` — value as *element text*.
+
+**New Recruit only reads the modern form.** Given a legacy-form profile it
+renders every stat column as the same value (whatever the last/Type
+characteristic holds), which is why a Lascannon displayed as `Heavy 1` in
+Range, Strength, AP *and* Type.
+
+Counts: `Warhammer40K.gst` is 100% legacy (1025 characteristics, 0 modern).
+`Space Marines - Codex (2015).cat` is 100% modern (2775, 0 legacy). That
+split explains everything observed:
+
+| Profile | Defined in | Form | Renders |
+|---|---|---|---|
+| Terminus Ultra vehicle stats | SM `.cat` | modern | correct |
+| Hunter-killer Missile | SM `.cat` (written by us) | modern | correct |
+| Lascannon / Heavy Bolter / Boltgun | `Warhammer40K.gst` | legacy | **broken** |
+
+So every weapon in the entire game system that `infoLink`s a `.gst` profile
+displays wrong — on stock units too (confirmed on an untouched plain Land
+Raider and a plain Tactical Squad). It was never specific to Terminus Ultra,
+and it is *not* a New Recruit bug in the sense of something we can't fix —
+it's a data-format issue on our side.
+
+**Fix:** replaced Terminus Ultra's two weapon `entryLink`s (which pointed at
+the shared `.gst`-backed entries `c092-b766-018e-4523` /
+`253c-b2c6-1345-e619`) with two **local** `selectionEntry`s carrying
+**local, modern-form profiles**, mirroring the Hunter-killer Missile that
+was already rendering correctly:
+
+- `Lascannon` — min 2 / max 2 — 48" / S9 / AP2 / Heavy 1
+- `Twin-Linked Lascannon` — min 3 / max 3 — 48" / S9 / AP2 / Heavy 1,
+  Twin-Linked — plus an `infoLink` to the shared Twin-Linked rule
+  (`3002-de38-7230-fbc6`)
+
+Both zero-costed; the 300pt base is unchanged. Verified in New Recruit
+against this exact commit — the unit now renders `Lascannon (x2)` at
+48"/9/2/Heavy 1 and `Twin-Linked Lascannon (x3)` at 48"/9/2/Heavy 1,
+Twin-Linked. Revision 2053 → 2054.
+
+**Open opportunity (not done):** converting `Warhammer40K.gst`'s 1025 legacy
+characteristics — and the legacy characteristics still present in 43 other
+`.cat` files — to the modern form would fix weapon/wargear stat display
+across the *entire* game system in New Recruit. It's a mechanical
+transform (`characteristicTypeId=`/`value=` attribute → `typeId=` + element
+text; profiles also use `profileTypeId=` where the modern form uses
+`typeId=`/`typeName=`), but it touches 44 files and thousands of lines, so
+it needs a deliberate decision and careful verification before attempting.
 
 ### Fixed: Land Raider Terminus Ultra wasn't actually selectable anywhere
 
