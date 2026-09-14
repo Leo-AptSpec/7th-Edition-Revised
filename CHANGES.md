@@ -9,6 +9,104 @@ Rebuild upstream's view of any file with
 
 ---
 
+## Chaos Space Marines — Codex (2012)
+
+File: `Chaos Space Marines - Codex.cat` · catalogue revision 2030 → 2031
+
+### Fixed: "Force Options" (the legion/Select force picker) unreachable in any detachment — confirmed bug
+
+**Symptom (Leo, live in New Recruit).** Building a new Chaos Space Marines Combined
+Arms Detachment, there is no "Force Options" entry anywhere in the picker — meaning
+no way to reach "Select force" and choose a legion (Black Legion, Death Guard, World
+Eaters, etc.) at all. Every legion-gated fix from earlier sessions (Marks of Chaos,
+Typhus, the Death Guard exclusivity restrictions) sits downstream of this picker and
+is unreachable without it.
+
+**Root cause.** `Force Options (Supplement options here)` (`3203-e3d9-6d38-9131`) is a
+catalogue-root-level `selectionEntry` (declared `hidden="false"`, own min1/max1
+force-scope constraint) that wraps the `Select force` group. It is a genuine dead
+entry: confirmed via `git log -p` across this file's *entire* history, and in
+upstream's own copy, that **no `entryLink` anywhere in the catalogue has ever pointed
+at it** — it's referenced 20+ times as a `childId` inside *other* entries' conditions
+(checking "is Force Options NOT selected"), but nothing ever links to it as a target,
+so nothing ever exposes it to a detachment's picker. This is the same class of bug as
+the Session 3 Terminus Ultra lesson: a `selectionEntry` needs an `entryLink` in the
+catalogue's root `<entryLinks>` list (not just its own `hidden="false"`/constraints)
+to actually be offered by a detachment. Confirmed this is how the *working* case looks
+by cross-checking Space Marines' equivalent — `Chapter Tactics`
+(`8ec7-bc59-b859-378c`) — which has exactly such a root `entryLink` (`be08-c306-51ff-
+4b42`, with a `No Force Org Slot` categoryLink and its own min1/max1 constraints).
+CSM's `Force Options` had no counterpart at all. Confirmed present in upstream
+unchanged (`git diff upstream/master` shows no prior touch to this id) — this is an
+original BSData data gap that predates every session on this project, not something
+introduced by the 2.00→2.03 conversion or any prior fix here.
+
+**Fix.** Added `entryLink id="d4a1-7f2e-9c3b-5e68"` (`targetId` = `3203-e3d9-6d38-
+9131`) to the catalogue's root `<entryLinks>` list, with `categoryEntryId="ff36a6f3-
+19bf-4f48-8956-adacfd28fe74"` (`No Force Org Slot`) — mirroring Space Marines'
+Chapter Tactics link. No extra constraints needed on the link itself since the target
+entry already self-constrains to exactly one pick per force. Revision 2030 → 2031.
+
+**Space Marines — checked, did NOT find the same bug.** Leo reported this affects SM
+too. Audited the equivalent path (`Chapter Tactics` → its `Chapter Tactics`
+`selectionEntryGroup` → the individual Chapter entries) end to end: the root
+`entryLink` exists (`be08-c306-51ff-4b42`, see above), the intermediate `entryLink`
+into the `selectionEntryGroup` is intact (`c0e3-bfb4-269a-4da3`), and the group itself
+(`15bc-de81-7154-282c`) has a normal min1/max1 constraint and real Chapter entries
+underneath (Red Scorpions, Carcharodons, etc. — checked a sample), no stray hidden
+conditions. Nothing structurally missing was found on static reading. **Not yet
+resolved for SM — needs more specifics from Leo** (does "Chapter Tactics" not appear
+in the picker at all, or does it appear but show no chapters underneath, or something
+else?) before guessing at a fix, since the CSM bug's exact shape (a fully orphaned
+entry) does not appear to be present here.
+
+---
+
+### Fixed: Mark of Tzeentch not reliably mandatory for Thousand Sons — confirmed bug
+
+**Background.** An earlier session's "Marks of Chaos hidden under every non-vanilla
+legion" theory (see the dual-id issue further down this file) was fixed for visibility
+across all four Marks, but left an open question: whether the same dual-id treatment
+had been applied consistently to the *mandatory* trigger (not just the *visibility*
+trigger) for every legion, not just Death Guard. This session audited all four Marks'
+"make mandatory" modifiers specifically for Khorne (World Eaters), Tzeentch (Thousand
+Sons) and Slaanesh (Emperor's Children), per Leo's request.
+
+**Finding.** Every Mark's *visibility* unhide condition already correctly lists both
+id forms (the `entryLink` id from the "Select force" picker and the target
+`selectionEntry` id) for its own matching legion — confirmed for all four Marks, in
+both the shared entries and their inline copies (e.g. under Chaos Lord). That part was
+already fixed project-wide, not just for Death Guard.
+
+The *mandatory* modifier (the one that sets each Mark's `minSelections` to 1 when its
+legion is chosen) is a different story:
+- Mark of Khorne's mandatory condition uses World Eaters' `selectionEntry` id
+  (`ef71-058b-3f36-592f`) — correct form.
+- Mark of Nurgle's uses Death Guard's `selectionEntry` id (`9c55-dd66-6f7b-8bc8`) —
+  correct form.
+- Mark of Slaanesh's uses Emperor's Children's `selectionEntry` id
+  (`c183-8bf0-8c4b-6ffb`) — correct form.
+- **Mark of Tzeentch's uses only Thousand Sons' `entryLink` id
+  (`6d47-164c-da91-85bc`) — the form that, per the confirmed Death Guard precedent
+  (`fa0f0e7`), the engine does not reliably match.** Present in both the shared entry
+  (`894b-0234-79e0-3aa8`) and its inline copy (`7862-8d6f-5fd1-8620`, under a Sorcerer
+  or similar HQ). Mark of Tzeentch would therefore likely appear as selectable under
+  Thousand Sons (visibility is fine) but not be enforced as mandatory, unlike the
+  other three legion/Mark pairs.
+
+**Fix.** Added Thousand Sons' `selectionEntry` id (`78c6-3dd8-6697-4ba8`) as an extra
+OR-condition alongside the existing entryLink-id condition, in both the shared and
+inline Mark of Tzeentch mandatory modifiers — mirroring the form already used by
+Khorne/Nurgle/Slaanesh. Purely additive (widens an OR list), so it cannot make the
+Mark harder to trigger than before, only more reliable.
+
+**Not yet independently verified** (same caveat as the original Death Guard fix):
+static reading of the XML conditions, not a confirmed live test in New Recruit. Before
+trusting this fully, build a Thousand Sons Combined Arms Detachment and check Mark of
+Tzeentch shows as mandatory (min 1), the same falsifying test used for Death Guard.
+
+---
+
 ## Whole repo — BattleScribe 2.00 → 2.03 format conversion
 
 Files: **all 44 `.cat` files + `Warhammer40K.gst`** · every file's `revision`

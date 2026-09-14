@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2029" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5af86795-95c1-a1eb-c333-17137242b62f" name="Chaos Space Marines: Codex (2012)" revision="2031" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2043" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1008,6 +1008,13 @@ D6 Result
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
+    <entryLink id="d4a1-7f2e-9c3b-5e68" hidden="false" targetId="3203-e3d9-6d38-9131" type="selectionEntry" categoryEntryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
     <entryLink id="be3a-1f4e-ac95-07f6" hidden="false" targetId="2c93-74cb-4b9d-42c2" type="selectionEntry" categoryEntryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
       <profiles/>
       <rules/>
@@ -31019,6 +31026,7 @@ Enemy units that are within 12&quot; of at least two units from this formation s
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d47-164c-da91-85bc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78c6-3dd8-6697-4ba8" type="equalTo"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c01f-7f35-e8a9-3b6a" type="instanceOf"/>
               </conditions>
               <conditionGroups/>
@@ -34559,6 +34567,7 @@ TL Plasma Gun</description>
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d47-164c-da91-85bc" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78c6-3dd8-6697-4ba8" type="equalTo"/>
                         <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c01f-7f35-e8a9-3b6a" type="instanceOf"/>
                       </conditions>
                       <conditionGroups/>
