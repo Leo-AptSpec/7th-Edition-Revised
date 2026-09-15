@@ -11,7 +11,55 @@ Rebuild upstream's view of any file with
 
 ## Chaos Space Marines — Codex (2012)
 
-File: `Chaos Space Marines - Codex.cat` · catalogue revision 2030 → 2031
+File: `Chaos Space Marines - Codex.cat` · catalogue revision 2030 → 2032
+
+### Follow-up: revision 2031 fix wasn't enough — a dead "always hidden" modifier on the same entry (confirmed live by Leo)
+
+The root `entryLink` added in revision 2031 (below) was necessary but not sufficient.
+`Force Options` itself carried a second, independent problem: a `modifier`
+unconditionally setting `hidden="true"` on the entry —
+
+```xml
+<modifier type="set" field="hidden" value="true">
+  <repeats/>
+  <conditions/>
+  <conditionGroups>
+    <conditionGroup type="or">
+      <conditions/>
+      <conditionGroups/>
+    </conditionGroup>
+  </conditionGroups>
+</modifier>
+```
+
+— with both the `<conditions/>` list and the nested `<conditionGroup type="or">`
+completely empty. Under strict boolean logic an empty `or` group should be a vacuous
+false (never satisfied), which is what I reasoned when I left it alone in 2031 —
+under that reading the modifier could never fire and the entry's own declared
+`hidden="false"` would stand. That reasoning was wrong for whatever engine New
+Recruit actually runs: Leo confirmed live that Force Options was still not showing up
+after the 2031 fix went out (and after the push that made it live), even though the
+entryLink now correctly routes to it. The only thing left that could explain a
+still-hidden entry is this modifier evaluating as "always hide" in practice — most
+likely because the engine treats a fully empty `conditionGroup` as trivially
+satisfied/ignored rather than as a formal empty disjunction.
+
+Confirmed via `git log -p` and `git diff upstream/master` (again) that this exact
+block is original, unchanged BSData authorship — not something the 2.00→2.03
+conversion or session 1 mark. It has zero real conditions, so it cannot ever have been
+intended to fire selectively; it reads as leftover cruft from a BattleScribe editor
+session (deleting a condition group's contents without deleting the group itself).
+There is no way to recover "what it was originally meant to gate on" from the data —
+removing it outright is the only defensible fix, and it now matches Space Marines'
+own `Chapter Tactics` wrapper, which carries no hidden modifier at all.
+
+**Fix.** Replaced the entry's `<modifiers>...</modifiers>` block with `<modifiers/>`,
+leaving the entry at its plain declared `hidden="false"`. Revision 2031 → 2032.
+
+**Not yet independently verified live** — this is a second attempt after the first
+didn't take; please confirm in New Recruit before treating this as closed.
+
+---
 
 ### Fixed: "Force Options" (the legion/Select force picker) unreachable in any detachment — confirmed bug
 
